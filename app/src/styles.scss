@@ -13,8 +13,8 @@ body {
 .logo img {
     width: 300px;
 }
-
-.info h2, .info h4 {
+//.info h2, .info h4, .eventName h1, .eventName h3 
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
@@ -22,7 +22,7 @@ body {
         margin: 25px 0;
 }
 
-.date h2 {
+.date h2, .eventName h1 {
     font-size: 4em;
 }
 
@@ -34,26 +34,61 @@ body {
     font-size: 3em;
 }
 
-.text p {
+.text p, .eventName h3 {
     font-size: 1.3em;
 }
 
 .text button {
     width: 100px;
     border: 1px solid white;
+    margin: 20px 0;
 }
 
 .rightside {
         padding: 20px 35px;
 }
 
+.prize {
+    background-color: red;
+    padding: 20px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    font-size: 1.6em;
+    margin-top: -70px;
+}
+
+.redCircle {
+//     height: 25px;
+//   width: 25px;
+//   background-color: red;
+//   border-radius: 50%;
+}
+
 .rightside img {
     border: white 2px solid;
     padding: 20px;
     border-left: none;
+    margin-left: 80px;
+    opacity: 0.4;
 }
 
+.eventName {
+    position: absolute;
+    // margin: 9em 0;
+}
 
+.eventNameRed {
+    color: red;
+}
+
+.verticalLine {
+    border-left: 2px white solid;
+    height: 10em;
+    position: initial;
+    margin-left: 78px;
+    opacity: 0.4;
+}
 
 .login-card .mat-card-image:first-child {
     margin-top:0 !important
