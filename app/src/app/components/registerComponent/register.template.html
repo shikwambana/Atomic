@@ -1,11 +1,19 @@
 <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
   <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+    <div fxLayout="row wrap" class="header" fxFlex="100" fxLayoutAlign="center stretch" fxShow="true" fxHide="false">
+      <div fxLayout="column wrap" class="logo" fxFlex="50" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><img imgSrc="/Web/logo.png"></div>
+      <div fxLayout="column wrap" class="menu" fxFlex="50" fxLayoutAlign="center end" fxShow="true" fxHide="false">
+        <div fxLayout="row wrap" fxLayoutAlign="center center" fxShow="true" fxHide="false"><button mat-button routerLink="/criteria">Criteria</button><button mat-button routerLink="/register">Register</button></div>
+      </div>
+    </div>
+  </div>
+  <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
     <h3>REGISTER</h3>
   </div>
   <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
     <form>
-      <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-        <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <div fxLayout="row wrap" class="formContainer" fxFlex="100" fxLayoutAlign="space-between start" fxShow="true" fxHide="false">
+        <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="space-around stretch" fxShow="true" fxHide="false">
           <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Full Name</label>
             <mat-form-field>
               <input matInput placeholder="Input" required>
@@ -29,7 +37,7 @@
             </mat-form-field>
           </div>
         </div>
-        <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+        <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="space-around stretch" fxShow="true" fxHide="false">
           <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Why do you want to take part in the AI Hackathon</label>
             <mat-form-field>
               <textarea matInput placeholder="Text Area" required></textarea>

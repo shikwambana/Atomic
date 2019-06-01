@@ -2,14 +2,19 @@
 
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 @import "nDefaults.scss";
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 body {
     background-image: linear-gradient(to right,blue 0%,red 100%), url(/assets/Web/red.png);
     background-blend-mode: luminosity;
     color: white;
     padding: 25px 60px;
+    font-family: 'Poppins', sans-serif;;
 }
 
+//=================================================================================
+// Home page
+//=================================================================================
 .logo img {
     width: 300px;
 }
@@ -26,7 +31,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 4em;
 }
 
-.date h4 {
+.date h4, .info h3 {
     font-size: 2em;
 }
 
@@ -99,3 +104,57 @@ h1, h2, h3, h4, h5, h6, p {
     color: white;
 }
 
+
+
+//=================================================================================
+// Criteria page
+//=================================================================================
+
+.cardCriteria {
+    margin: 35px 35px 0 0;
+    border: 2px white solid;
+    padding: 20px;
+}
+
+.cardCriteria h1 {
+    font-size: 3em;
+    opacity: 0.8;
+
+}
+
+.cardCriteria p {
+    font-size: 1.5em;
+    padding-left: 12px;
+}
+
+.cardCriteria ul {
+        font-size: 1.3em;
+}
+
+//=================================================================================
+// register page
+//=================================================================================
+
+.formContainer {
+    margin: 50px 0;
+}
+
+.formContainer input, .formContainer textarea, .formContainer mat-select {
+        border: 2px white solid;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.formContainer .mat-form-field-underline {
+    height: 0 !important;
+    width: 0;
+}
+
+.formContainer .mat-form-field-label {
+    display: none !important;
+}
+
+.formContainer button {
+    background-color: red;
+}

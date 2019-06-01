@@ -23,6 +23,36 @@ export class criteriaComponent extends NBaseComponent implements OnInit {
         this.mm = new ModelMethods(bdms);
     }
 
+    info = [
+        {
+            "number" : "01.",
+            "title" : "Idea Submission",
+            "content" : [
+                "Submission Date - 9th June'19",
+                "There are no set formats for the submission of ideas. Please submit it in a format that is most optimal for your idea (PowerPoint Presentation, video, etc.)",
+                "Email Id for Submission of Presentaions [To be Submitted in a form]"
+            ]
+        },
+        {
+            "number" : "02.",
+            "title" : "Idea Presentation Schedule",
+            "content" : [
+                "Who: The Idea document",
+                "How: 20 minutes for each team (10 mins presentaion + 10 mins Q&A)",
+                "When: 11th June'19",
+                "Where: Neutrinos Office"
+            ]
+        },
+        {
+            "number" : "03.",
+            "title" : "Announcing the results of document review",
+            "content" : [
+                "Announcing the selection of the final Contenstants",
+                "12th June'19"
+            ]
+        }
+        
+    ]
     ngOnInit() {
 
     }
