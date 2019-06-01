@@ -1,0 +1,137 @@
+{
+    "414259b2-ecb7-3626-bd5c-c48d36bff20e": {
+        "paletteKey": "FlexLayoutCol",
+        "designerReference": [
+            {
+                "_key": "componentLabel",
+                "_value": "Column",
+                "_type": "kv",
+                "_attrDef": "p",
+                "_useAsLabel": true
+            },
+            {
+                "_key": "style",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "class",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "fxFlex",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "wrap",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "fxLayoutGap",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "layoutAlign",
+                "_value": "center",
+                "_type": "a",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "fxShow",
+                "_value": "true",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "fxHide",
+                "_value": "false",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "pLayoutAlign",
+                "_value": "center",
+                "_type": "a",
+                "_attrDef": "p"
+            }
+        ],
+        "ce6b6c25-994b-fccf-8298-41f685078876": {
+            "paletteKey": "NG-H3",
+            "designerReference": [
+                {
+                    "_key": "style",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "1": false,
+                    "_key": "class",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "2": false,
+                    "_key": "H3 Text",
+                    "_value": "You are now logged in!",
+                    "_type": "a",
+                    "_attrDef": "p",
+                    "_useAsLabel": true
+                }
+            ],
+            "parentEditorKey": "414259b2-ecb7-3626-bd5c-c48d36bff20e"
+        },
+        "731fcc7c-886f-cd5f-0371-83bf93f9c268": {
+            "paletteKey": "NG-RaisedButton",
+            "designerReference": [
+                {
+                    "0": false,
+                    "_key": "style",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "1": false,
+                    "_key": "class",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "2": false,
+                    "_key": "buttonname",
+                    "_value": "Logout",
+                    "_type": "a",
+                    "_attrDef": "p",
+                    "_useAsLabel": true
+                },
+                {
+                    "3": false,
+                    "_key": "color",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "4": false,
+                    "_key": "(click)",
+                    "_value": "logoutUser()",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                }
+            ],
+            "parentEditorKey": "414259b2-ecb7-3626-bd5c-c48d36bff20e"
+        }
+    }
+}

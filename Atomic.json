@@ -1,0 +1,12 @@
+{
+    "artId": "",
+    "appName": "Atomic",
+    "description": "Hackathon",
+    "lastModified": "2019-06-01T07:28:36.002Z",
+    "artURL": "http://localhost:3000/bhive-art/",
+    "imgSourcePath": "appIcon-1559374114897.jpeg",
+    "version": "1.0.0",
+    "dataSource": "neutrinos-delivery-rt",
+    "createDate": "2019-06-01T07:28:34.866Z",
+    "tenantName": "neutrinos-delivery"
+}
