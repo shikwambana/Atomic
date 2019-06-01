@@ -12,6 +12,8 @@ window['neutrinos'] = {
 }
 
 //CORE_REFERENCE_IMPORTS
+//CORE_REFERENCE_IMPORT-hackathonComponent
+import { hackathonComponent } from '../components/hackathonComponent/hackathon.component';
 //CORE_REFERENCE_IMPORT-registerComponent
 import { registerComponent } from '../components/registerComponent/register.component';
 //CORE_REFERENCE_IMPORT-criteriaComponent
@@ -60,6 +62,8 @@ export const appDeclarations = [
   PageNotFoundComponent,
   NMapComponent,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-hackathonComponent
+hackathonComponent,
 //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-registerComponent
 registerComponent,
 //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-criteriaComponent
@@ -97,5 +101,6 @@ export const appProviders = [
 */
 
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_START
-export const appRoutes = [{path: 'home', component: homeComponent},{path: 'login', component: loginComponent},{path: 'unauthorized', redirectTo: '/login', pathMatch: 'full', canActivate: [NAuthGuardService]},{path: 'criteria', component: criteriaComponent},{path: 'register', component: registerComponent},{path: '', redirectTo: '/home', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
+export const appRoutes = [{path: 'home', component: homeComponent,
+children: [{path: '', component: hackathonComponent},{path: 'criteria', component: criteriaComponent},{path: 'register', component: registerComponent}]},{path: 'login', component: loginComponent},{path: 'unauthorized', redirectTo: '/login', pathMatch: 'full', canActivate: [NAuthGuardService]},{path: 'criteria', component: criteriaComponent},{path: 'register', component: registerComponent},{path: '', redirectTo: '/home', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_END

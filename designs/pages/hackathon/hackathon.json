@@ -1,0 +1,13 @@
+{
+    "appPageId": "72b0821b-8918-94ec-7e9e-120187958de9",
+    "appPageName": "hackathon",
+    "componentName": "hackathonComponent",
+    "selectorName": "bh-hackathon",
+    "htmlFileName": "hackathon.template.html",
+    "tsFileName": "hackathon.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

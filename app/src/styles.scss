@@ -4,12 +4,17 @@
 @import "nDefaults.scss";
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
+@font-face {
+    font-family: Rockwell;
+    src: url(/assets/fonts/ROCK.TTF) format("truetype")
+}
+
 body {
     background-image: linear-gradient(to right,blue 0%,red 100%), url(/assets/Web/red.png);
     background-blend-mode: luminosity;
     color: white;
     padding: 25px 60px;
-    font-family: 'Poppins', sans-serif;;
+    font-family: Rockwell, sans-serif;
 }
 
 //=================================================================================
@@ -89,7 +94,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .verticalLine {
     border-left: 2px white solid;
-    height: 10em;
+    height: 15em;
     position: initial;
     margin-left: 78px;
     opacity: 0.4;

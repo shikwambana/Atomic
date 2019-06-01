@@ -7,7 +7,21 @@
             "redirectTo": "",
             "resolve": "",
             "data": "",
-            "canActivate": ""
+            "canActivate": "",
+            "children": [
+                {
+                    "component": "hackathonComponent",
+                    "path": "''"
+                },
+                {
+                    "component": "criteriaComponent",
+                    "path": "criteria"
+                },
+                {
+                    "path": "register",
+                    "component": "registerComponent"
+                }
+            ]
         },
         {
             "path": "login",
