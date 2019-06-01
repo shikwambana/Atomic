@@ -1,0 +1,13 @@
+{
+    "appPageId": "c631a01e-d532-b82b-2cec-03a3a0a2e9a3",
+    "appPageName": "criteria",
+    "componentName": "criteriaComponent",
+    "selectorName": "bh-criteria",
+    "htmlFileName": "criteria.template.html",
+    "tsFileName": "criteria.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

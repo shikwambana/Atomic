@@ -3,6 +3,58 @@
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 @import "nDefaults.scss";
 
+body {
+    background-image: linear-gradient(to right,blue 0%,red 100%), url(/assets/Web/red.png);
+    background-blend-mode: luminosity;
+    color: white;
+    padding: 25px 60px;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.info h2, .info h4 {
+    margin: 0;
+}
+
+.date {
+        margin: 25px 0;
+}
+
+.date h2 {
+    font-size: 4em;
+}
+
+.date h4 {
+    font-size: 2em;
+}
+
+.text h2 {
+    font-size: 3em;
+}
+
+.text p {
+    font-size: 1.3em;
+}
+
+.text button {
+    width: 100px;
+    border: 1px solid white;
+}
+
+.rightside {
+        padding: 20px 35px;
+}
+
+.rightside img {
+    border: white 2px solid;
+    padding: 20px;
+    border-left: none;
+}
+
+
+
 .login-card .mat-card-image:first-child {
     margin-top:0 !important
 }
@@ -11,3 +63,4 @@
     background-color: #ee1c22;
     color: white;
 }
+

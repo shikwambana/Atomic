@@ -25,6 +25,14 @@
             "canActivate": "NAuthGuardService"
         },
         {
+            "path": "criteria",
+            "component": "criteriaComponent"
+        },
+        {
+            "path": "register",
+            "component": "registerComponent"
+        },
+        {
             "path": "''",
             "component": "",
             "pathMatch": "full",

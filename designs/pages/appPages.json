@@ -13,5 +13,15 @@
         "appPageName": "loader",
         "componentName": "loaderComponent",
         "isEntry": false
+    },
+    "c631a01e-d532-b82b-2cec-03a3a0a2e9a3": {
+        "appPageName": "criteria",
+        "componentName": "criteriaComponent",
+        "isEntry": false
+    },
+    "d3d69057-a415-d3e5-342d-87d995faced4": {
+        "appPageName": "register",
+        "componentName": "registerComponent",
+        "isEntry": false
     }
 }

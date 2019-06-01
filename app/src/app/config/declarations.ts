@@ -12,6 +12,10 @@ window['neutrinos'] = {
 }
 
 //CORE_REFERENCE_IMPORTS
+//CORE_REFERENCE_IMPORT-registerComponent
+import { registerComponent } from '../components/registerComponent/register.component';
+//CORE_REFERENCE_IMPORT-criteriaComponent
+import { criteriaComponent } from '../components/criteriaComponent/criteria.component';
 //CORE_REFERENCE_IMPORT-ArtImgSrcDirective
 import { ArtImgSrcDirective } from '../directives/artImgSrc.directive';
 //CORE_REFERENCE_IMPORT-loaderComponent
@@ -56,6 +60,10 @@ export const appDeclarations = [
   PageNotFoundComponent,
   NMapComponent,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-registerComponent
+registerComponent,
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-criteriaComponent
+criteriaComponent,
 //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-ArtImgSrcDirective
 ArtImgSrcDirective,
 //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-loaderComponent
@@ -89,5 +97,5 @@ export const appProviders = [
 */
 
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_START
-export const appRoutes = [{path: 'home', component: homeComponent},{path: 'login', component: loginComponent},{path: 'unauthorized', redirectTo: '/login', pathMatch: 'full', canActivate: [NAuthGuardService]},{path: '', redirectTo: '/home', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
+export const appRoutes = [{path: 'home', component: homeComponent},{path: 'login', component: loginComponent},{path: 'unauthorized', redirectTo: '/login', pathMatch: 'full', canActivate: [NAuthGuardService]},{path: 'criteria', component: criteriaComponent},{path: 'register', component: registerComponent},{path: '', redirectTo: '/home', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_END
