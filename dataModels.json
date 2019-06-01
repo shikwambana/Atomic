@@ -21,5 +21,43 @@
                 "isArray": false
             }
         ]
+    },
+    "63e18cfb-618f-556e-245e-d045d9263d4d": {
+        "dataModelId": "63e18cfb-618f-556e-245e-d045d9263d4d",
+        "name": "details",
+        "description": "information of register",
+        "dataSource": "neutrinos-delivery-rt",
+        "fields": [
+            {
+                "name": "fullName",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "email",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "idea",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "problem",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "reason",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "attendance",
+                "fieldType": 2,
+                "isArray": false
+            }
+        ]
     }
 }

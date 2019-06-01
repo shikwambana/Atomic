@@ -46,6 +46,7 @@
         "localforage": "1.7.3",
         "neutrinos-module": "0.0.38",
         "ng2-charts": "1.6.0",
+        "ng2-date-countdown": "^1.0.3",
         "node-sass": "4.11.0",
         "phonegap-plugin-barcodescanner": "^8.0.1",
         "phonegap-plugin-multidex": "^1.0.0",

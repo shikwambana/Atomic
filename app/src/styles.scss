@@ -10,18 +10,21 @@
 }
 
 body {
-    background-image: linear-gradient(to right,blue 0%,red 100%), url(/assets/Web/red.png);
+    font-family: Rockwell, sans-serif;
+}
+
+.container {
+    background-image: linear-gradient(to bottom, #ec1c24, #202021), url(/assets/Web/background.png);
     background-blend-mode: luminosity;
     color: white;
     padding: 25px 60px;
-    font-family: Rockwell, sans-serif;
 }
 
 //=================================================================================
 // Home page
 //=================================================================================
 .logo img {
-    width: 300px;
+    width: 10em;;
 }
 //.info h2, .info h4, .eventName h1, .eventName h3 
 h1, h2, h3, h4, h5, h6, p {
@@ -69,10 +72,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .redCircle {
-//     height: 25px;
-//   width: 25px;
-//   background-color: red;
-//   border-radius: 50%;
+    height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 50%;
 }
 
 .rightside img {
@@ -100,6 +103,13 @@ h1, h2, h3, h4, h5, h6, p {
     opacity: 0.4;
 }
 
+.horLine {
+    color: black;
+    width: 130em;
+    font-size: 2px;
+    margin: 0;
+}
+
 .login-card .mat-card-image:first-child {
     margin-top:0 !important
 }
@@ -109,7 +119,122 @@ h1, h2, h3, h4, h5, h6, p {
     color: white;
 }
 
+.menu button {
+    font-size: 1em;
+}
 
+.countdown .measurements {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin-right: 5px;
+}
+
+
+.countdown .Minutes {
+    background-color: red;
+    color: white;
+}
+
+//==========================
+//tablet 
+
+.containerTablet {
+        padding: 25px 20px;
+}
+.headlineTablet {
+    display: -webkit-box;
+}
+
+.contentTablet {
+    margin-top: 0% !important;
+}
+
+.infoTablet {
+    width: 25% !important;
+}
+
+.pictureTablet {
+    padding: 0;
+    width: 70% !important;
+    margin-top: 70px;
+}
+
+.pictureTablet img {
+        width: 80%;
+
+}
+
+.pictureTablet .verticalLine {
+    height: 10em !important;
+}
+
+
+.prizeContainer {
+    width: 50%;
+    margin-top: 0;
+}
+
+.prizeTablet {
+    margin-top: 0 !important;
+}
+
+.countDownContainer {
+   margin: 0 !important;
+}
+
+.textTablet p {
+        font-size: 1em;
+        padding-top: 15px;
+    }
+
+.textTablet h2{
+            font-size: 2em;
+    }
+
+//===========================================================================
+//phone
+
+.infoMobile h2 {
+        font-size: 2em;
+}
+
+.mobilePicture {
+    padding: 0 !important
+}
+
+.mobilePicture .verticalLine {
+    height: 4em !important;
+}
+
+.mobilePicture img {
+        width: 140px;
+}
+
+.mobilePicture h1 {
+        font-size: 2em;
+}
+
+.mobilePicture h3 {
+    font-size: 1em;
+}
+
+.contentTabletxs {
+    margin: 0 !important;
+}
+
+.contentTabletxs h2 {
+    font-size: 1.5em;
+}
+
+.contentTabletxs {
+        font-size: .7em;
+}
+
+.countDownContainerxs {
+    margin-top: 35px !important;
+}
 
 //=================================================================================
 // Criteria page

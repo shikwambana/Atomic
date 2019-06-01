@@ -1,18 +1,10 @@
 <div fxLayout="column wrap" class="info" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
   <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-    <div fxLayout="row wrap" class="header" fxFlex="100" fxLayoutAlign="center stretch" fxShow="true" fxHide="false">
-      <div fxLayout="column wrap" class="logo" fxFlex="50" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><img imgSrc="/Web/logo.png"></div>
-      <div fxLayout="column wrap" class="menu" fxFlex="50" fxLayoutAlign="center end" fxShow="true" fxHide="false">
-        <div fxLayout="row wrap" fxLayoutAlign="center center" fxShow="true" fxHide="false"><button mat-button routerLink="/criteria">Criteria</button><button mat-button routerLink="/register">Register</button></div>
-      </div>
-    </div>
-  </div>
-  <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
     <h3>PARTICIPATION CRITERIA</h3>
   </div>
   <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
     <div fxLayout="row wrap" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-      <div fxLayout="column wrap" class="cardCriteria" fxFlex="30" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" *ngFor="let item of info">
+      <div fxLayout="column wrap" class="cardCriteria" fxFlex="30" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" *ngFor="let item of info" fxFlex.xs="90">
         <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
           <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
             <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">

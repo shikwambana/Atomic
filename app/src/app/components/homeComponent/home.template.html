@@ -1,49 +1,15 @@
-<div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-  <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-    <div fxLayout="row wrap" class="header" fxFlex="100" fxLayoutAlign="center stretch" fxShow="true" fxHide="false">
-      <div fxLayout="column wrap" class="logo" fxFlex="50" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><img imgSrc="/Web/new-logo.png"></div>
-      <div fxLayout="column wrap" class="menu" fxFlex="50" fxLayoutAlign="center end" fxShow="true" fxHide="false">
-        <div fxLayout="row wrap" fxLayoutAlign="center center" fxShow="true" fxHide="false"><button mat-button routerLink="/criteria">Criteria</button><button mat-button routerLink="/register">Register</button></div>
-      </div>
-    </div>
-  </div>
-  <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-    <div fxLayout="row wrap" class="content" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-      <div fxLayout="column wrap" class="info" fxFlex="50" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-        <div fxLayout="column wrap" class="date" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-          <h2>22-23</h2>
-          <h4>JUNE<br>2019</h4>
-        </div>
-        <div fxLayout="column wrap" class="text" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-          <h2>Neutrinos AI Challenge 48 Hours<br>What can you Build?</h2>
-          <p>48 Hours - Discover, Discuss and Solve the problems in the modern industry by using AI technology!<br>This is a hackathon about having a good time! We&apos;re giving you fun themes to hack towards so that you can both exercise your hacking chops.</p><button mat-button>Read More</button>
-        </div>
-      </div>
-      <div fxLayout="column wrap" class="rightside" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><img imgSrc="/Web/robot.png">
-        <div fxLayout="column wrap" class="eventName" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-          <div class="verticalLine"></div>
-          <h1><span class="eventNameRed">A</span>TOM<span class="eventNameRed">I</span>CITY</h1>
-          <h3>HACKATHON CHALLENGE</h3>
-          <hr style="color: black; width: 25px; font-size: 2px">
-          <div class="verticalLine" style="height: 15.3em;"></div>
+<div fxLayout="row wrap" style="width:100%" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+  <div fxLayout="column wrap" style="height: 100%;" class="container" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass="containerTablet">
+    <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <div fxLayout="row wrap" class="header" fxFlex="100" fxLayoutAlign="center stretch" fxShow="true" fxHide="false">
+        <div fxLayout="column wrap" class="logo" fxFlex="50" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFlex.xs="30"><img imgSrc="/Web/new-logo.png" style="cursor:pointer" routerLink="/home"></div>
+        <div fxLayout="column wrap" class="menu" fxFlex="50" fxLayoutAlign="center end" fxShow="true" fxHide="false" fxFlex.xs="60">
+          <div fxLayout="row wrap" fxLayoutAlign="center center" fxShow="true" fxHide="false"><button mat-button routerLink="criteria">Criteria</button><button mat-button routerLink="register">Register</button></div>
         </div>
       </div>
     </div>
-  </div>
-  <div fxLayout="column wrap" fxLayoutAlign="center center" fxShow="true" fxHide="false">
-    <div fxLayout="row wrap" fxLayoutAlign="center center" fxShow="true" fxHide="false">
-      <div fxLayout="column wrap" class="redCircle" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"></div>
-      <div fxLayout="column wrap" class="prize" fxLayoutAlign="center center" fxShow="true" fxHide="false">
-        <h4>Prize</h4>
-        <h2>50 000</h2>
-      </div>
-    </div>
-  </div>
-  <div fxLayout="column wrap" class="timer" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-    <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-      <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-        <p>Paragraph</p>
-      </div>
+    <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFill>
+      <router-outlet></router-outlet>
     </div>
   </div>
 </div>

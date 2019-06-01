@@ -4,7 +4,7 @@ import { ModelMethods } from '../../lib/model.methods';
 // import { BDataModelService } from '../service/bDataModel.service';
 import { NDataModelService } from 'neutrinos-seed-services';
 import { NBaseComponent } from '../../../../../app/baseClasses/nBase.component';
-
+import { details } from '../../models/details.model'
 /**
  * Service import Example :
  * import { HeroService } from '../../services/hero/hero.service';
@@ -18,13 +18,21 @@ import { NBaseComponent } from '../../../../../app/baseClasses/nBase.component';
 export class registerComponent extends NBaseComponent implements OnInit {
     mm: ModelMethods;
 
+    details : details;
+
     constructor(private bdms: NDataModelService) {
         super();
         this.mm = new ModelMethods(bdms);
+        this.details = new details();
     }
 
     ngOnInit() {
+        console.log(this.details)
 
+    }
+
+    submit(){
+        console.log(this.details)
     }
 
     get(dataModelName, filter?, keys?, sort?, pagenumber?, pagesize?) {
