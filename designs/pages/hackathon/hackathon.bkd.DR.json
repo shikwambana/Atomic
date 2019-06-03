@@ -215,7 +215,7 @@
                     },
                     {
                         "_key": "fxFlex.xs",
-                        "_value": "20",
+                        "_value": "25",
                         "_type": "kv",
                         "_attrDef": "c"
                     },
@@ -429,7 +429,7 @@
                     },
                     {
                         "_key": "fxFlex.xs",
-                        "_value": "50",
+                        "_value": "70",
                         "_type": "kv",
                         "_attrDef": "c"
                     },
