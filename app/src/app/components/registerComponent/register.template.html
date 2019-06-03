@@ -6,24 +6,24 @@
     <div fxLayout="row wrap" class="formContainer" fxFlex="100" fxLayoutAlign="space-between start" fxShow="true" fxHide="false">
       <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="space-around stretch" fxShow="true" fxHide="false" fxFlex.xs="90">
         <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Full Name</label>
-          <mat-form-field>
+          <mat-form-field class="inputInfo">
             <input matInput [(ngModel)]="details.fullName" name="fullName" required>
 
           </mat-form-field>
         </div>
         <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Email Address</label>
-          <mat-form-field>
+          <mat-form-field class="inputInfo">
             <input matInput [(ngModel)]="details.email" required>
 
           </mat-form-field>
         </div>
         <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>What is your Idea?</label>
-          <mat-form-field>
+          <mat-form-field class="inputInfo">
             <textarea matInput [(ngModel)]="details.idea" required></textarea>
           </mat-form-field>
         </div>
         <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>What challenge/problem does it solve</label>
-          <mat-form-field>
+          <mat-form-field class="inputInfo">
             <textarea matInput [(ngModel)]="details.problem" required></textarea>
           </mat-form-field>
         </div>

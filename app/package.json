@@ -57,6 +57,7 @@
         "rxjs": "6.4.0",
         "rxjs-compat": "6.4.0",
         "signature_pad": "2.3.2",
+        "slick-carousel": "^1.8.1",
         "zone.js": "0.8.29"
     },
     "devDependencies": {

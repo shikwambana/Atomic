@@ -351,6 +351,12 @@
                                 "_value": "",
                                 "_type": "kv",
                                 "_attrDef": "p"
+                            },
+                            {
+                                "_key": "ngStyle.sm",
+                                "_value": "padding-left: 30px;",
+                                "_type": "kv",
+                                "_attrDef": "c"
                             }
                         ]
                     }
@@ -471,7 +477,7 @@
                         },
                         {
                             "_key": "imgSrc",
-                            "_value": "/Web/robot1.png",
+                            "_value": "/Web/robot2.png",
                             "_type": "kv",
                             "_attrDef": "p"
                         },
@@ -1149,7 +1155,7 @@
                     },
                     {
                         "_key": "style",
-                        "_value": "margin-top: -45px;",
+                        "_value": "",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -1203,7 +1209,7 @@
                     },
                     {
                         "_key": "ngClass.sm",
-                        "_value": "prizeContainer",
+                        "_value": "prizeTablet",
                         "_type": "kv",
                         "_attrDef": "c"
                     },
@@ -1278,6 +1284,12 @@
                             "_value": "false",
                             "_type": "kv",
                             "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxHide.sm",
+                            "_value": "true",
+                            "_type": "kv",
+                            "_attrDef": "c"
                         }
                     ]
                 },
@@ -1436,7 +1448,7 @@
                     },
                     {
                         "_key": "style",
-                        "_value": "margin-top: -5%",
+                        "_value": "margin-top: -5%;padding-right: 85px;",
                         "_type": "kv",
                         "_attrDef": "p"
                     },

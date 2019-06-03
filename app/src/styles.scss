@@ -25,10 +25,18 @@ body {
 
 .container {
     padding: 0px 80px;
+    height: 100vh;
+    overflow: hidden;
+    overflow-x: hidden;
+    display: block !important;
 }
 
+.containerTablet {
+    overflow-y: scroll;
+}
 .containerMobile {
         padding: 0px 15px;
+        overflow-y: scroll;
 }
 
 //=================================================================================
@@ -60,6 +68,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .text p, .eventName h3 {
     font-size: 1.2em;
+    padding-top: 10px;
 }
 
 .text button {
@@ -79,7 +88,7 @@ h1, h2, h3, h4, h5, h6, p {
     height: 200px;
     width: 200px;
     font-size: 1.6em;
-    margin-top: -70px;
+    margin-top: 65px;
 }
 
 .redCircle {
@@ -87,7 +96,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 50px;
   background-color: rgba(255, 0, 0, 0.5098039215686274);
   border-radius: 50%;
-  margin-bottom: -145px;
+  margin-bottom: -200px;
     margin-right: -35px;
 
 }
@@ -140,17 +149,24 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .menu button {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .countdown .measurements {
     text-align: center;
     background-color: white;
     color: black;
-    padding: 15px;
+    padding: 20px;
     margin-right: 5px;
 }
 
+// Tk
+.mainContainer {
+        height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: block;
+}
 
 .countdown .Minutes {
     background-color: red;
@@ -192,24 +208,25 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .prizeContainer {
-    width: 50%;
-    margin-top: 65px !important;
-
+    width: 100%;
+    margin-top: 0px !important;
 }
 
+
 .prizeContainerLaptop {
-    // margin-top: -15%;
+    margin-top: -12%;
 }
 
 .prizeTablet {
-    margin-top: 0 !important;
+    margin-top: 0px !important;
+    // width: 100% !important;
 }
 
 .prize h2 {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .countDownContainer {
-   margin: 0 !important;
+   margin: 50px 0 0 !important;
 }
 
 .textTablet {
@@ -277,7 +294,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .countDownContainerxs {
-    margin-top: 35px !important;
+    margin-top: 35px 0 !important;
+    padding: 0;
 }
 
 //=================================================================================
@@ -312,7 +330,12 @@ h1, h2, h3, h4, h5, h6, p {
 //=================================================================================
 // register page
 //=================================================================================
-
+.formContainer textarea {
+    padding: 5px !important;
+}
+.inputInfo {
+    // width: 10em;
+}
 .formContainer {
     margin: 50px 0;
 }

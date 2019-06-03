@@ -476,7 +476,7 @@
                                 },
                                 {
                                     "_key": "class",
-                                    "_value": "",
+                                    "_value": "inputInfo",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },
@@ -667,7 +667,7 @@
                                 },
                                 {
                                     "_key": "class",
-                                    "_value": "",
+                                    "_value": "inputInfo",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },
@@ -857,7 +857,7 @@
                                 },
                                 {
                                     "_key": "class",
-                                    "_value": "",
+                                    "_value": "inputInfo",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },
@@ -1022,7 +1022,7 @@
                                 },
                                 {
                                     "_key": "class",
-                                    "_value": "",
+                                    "_value": "inputInfo",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },
