@@ -381,7 +381,7 @@
                     },
                     {
                         "_key": "fxFlex",
-                        "_value": "35",
+                        "_value": "",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -471,7 +471,7 @@
                         },
                         {
                             "_key": "imgSrc",
-                            "_value": "/Web/robot.png",
+                            "_value": "/Web/robot1.png",
                             "_type": "kv",
                             "_attrDef": "p"
                         },
@@ -586,7 +586,7 @@
                         },
                         {
                             "_key": "fxHide",
-                            "_value": "false",
+                            "_value": "true",
                             "_type": "kv",
                             "_attrDef": "p"
                         }
@@ -1083,7 +1083,7 @@
                 },
                 {
                     "_key": "style",
-                    "_value": "margin-top: -2%",
+                    "_value": "",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -1149,7 +1149,7 @@
                     },
                     {
                         "_key": "style",
-                        "_value": "",
+                        "_value": "margin-top: -45px;",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -1436,7 +1436,7 @@
                     },
                     {
                         "_key": "style",
-                        "_value": "margin-right: 130px; margin-top: -60px;",
+                        "_value": "margin-top: -5%",
                         "_type": "kv",
                         "_attrDef": "p"
                     },

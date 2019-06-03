@@ -13,18 +13,18 @@
     font-family: Rockwell;
 }
 
-.container {
+body {
     background-image: linear-gradient(to bottom, #ec1c24, #202021), url(/assets/Web/background.png);
     background-blend-mode: luminosity;
     color: white;
-    padding: 30px 80px;
+    padding: 0px 80px;
 }
 
 //=================================================================================
 // Home page
 //=================================================================================
 .logo img {
-    width: 10em;;
+    width: 15em;;
 }
 //.info h2, .info h4, .eventName h1, .eventName h3 
 h1, h2, h3, h4, h5, h6, p {
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .rightside {
-        padding: 20px 35px;
+        // padding: 20px 35px;
 }
 
 .prize {
@@ -82,11 +82,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .rightside img {
-    border: white 2px solid;
+    // border: white 2px solid;
     padding: 20px;
     border-left: none;
-    margin-left: 80px;
-    opacity: 0.4;
+    // margin-left: 80px;
+    // opacity: 0.4;
     height: auto;
         width: 90%;
 }
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .menu button {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .countdown .measurements {

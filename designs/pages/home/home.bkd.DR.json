@@ -11,7 +11,7 @@
             },
             {
                 "_key": "style",
-                "_value": "width:100%",
+                "_value": "width:100%;  ",
                 "_type": "kv",
                 "_attrDef": "p"
             },
@@ -149,7 +149,7 @@
                     },
                     {
                         "_key": "style",
-                        "_value": "",
+                        "_value": "padding-top: 10px;",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
