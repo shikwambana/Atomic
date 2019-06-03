@@ -17,7 +17,7 @@
             },
             {
                 "_key": "class",
-                "_value": "",
+                "_value": "registerContainer",
                 "_type": "kv",
                 "_attrDef": "p"
             },
@@ -62,6 +62,18 @@
                 "_value": "false",
                 "_type": "kv",
                 "_attrDef": "p"
+            },
+            {
+                "_key": "ngClass.sm",
+                "_value": "registerContainersm",
+                "_type": "kv",
+                "_attrDef": "c"
+            },
+            {
+                "_key": "ngClass.xs",
+                "_value": "registerContainerxs",
+                "_type": "kv",
+                "_attrDef": "c"
             }
         ],
         "5396c71d-0358-7d26-155a-d5aeeab93dfb": {
@@ -181,7 +193,7 @@
                 },
                 {
                     "_key": "class",
-                    "_value": "",
+                    "_value": "formContainer",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -226,6 +238,18 @@
                     "_value": "false",
                     "_type": "kv",
                     "_attrDef": "p"
+                },
+                {
+                    "_key": "ngStyle.xs",
+                    "_value": "padding-left: 15px;",
+                    "_type": "kv",
+                    "_attrDef": "c"
+                },
+                {
+                    "_key": "ngStyle.sm",
+                    "_value": "padding-left: 30px;",
+                    "_type": "kv",
+                    "_attrDef": "c"
                 }
             ],
             "0c44b24a-a492-2321-fb23-c70697ceb285": {
@@ -247,7 +271,7 @@
                     },
                     {
                         "_key": "class",
-                        "_value": "formContainer",
+                        "_value": "",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -361,6 +385,12 @@
                         },
                         {
                             "_key": "fxFlex.xs",
+                            "_value": "90",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "fxFlex.sm",
                             "_value": "90",
                             "_type": "kv",
                             "_attrDef": "c"
@@ -1079,7 +1109,7 @@
                         }
                     }
                 },
-                "fd988968-75b7-2ee7-74cc-087c3aedf752": {
+                "e57befbc-462b-a6dd-573c-54c157841012": {
                     "paletteKey": "FlexLayoutCol",
                     "parentEditorKey": "0c44b24a-a492-2321-fb23-c70697ceb285",
                     "designerReference": [
@@ -1122,7 +1152,7 @@
                         },
                         {
                             "_key": "layoutAlign",
-                            "_value": "space-around",
+                            "_value": "start",
                             "_type": "a",
                             "_attrDef": "p"
                         },
@@ -1143,11 +1173,17 @@
                             "_value": "false",
                             "_type": "kv",
                             "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxFlex.sm",
+                            "_value": "90",
+                            "_type": "kv",
+                            "_attrDef": "c"
                         }
                     ],
                     "48a8266c-9a0e-b613-cf86-8dad76936f93": {
                         "paletteKey": "FlexLayoutCol",
-                        "parentEditorKey": "fd988968-75b7-2ee7-74cc-087c3aedf752",
+                        "parentEditorKey": "e57befbc-462b-a6dd-573c-54c157841012",
                         "designerReference": [
                             {
                                 "_key": "componentLabel",
@@ -1312,7 +1348,7 @@
                     },
                     "bcee78e8-c71c-cd05-5bc7-7726d86a78bd": {
                         "paletteKey": "FlexLayoutCol",
-                        "parentEditorKey": "fd988968-75b7-2ee7-74cc-087c3aedf752",
+                        "parentEditorKey": "e57befbc-462b-a6dd-573c-54c157841012",
                         "designerReference": [
                             {
                                 "_key": "componentLabel",
@@ -1503,7 +1539,7 @@
                     },
                     "35af8713-72f9-25d0-1ecf-4d7880b0bd22": {
                         "paletteKey": "FlexLayoutCol",
-                        "parentEditorKey": "fd988968-75b7-2ee7-74cc-087c3aedf752",
+                        "parentEditorKey": "e57befbc-462b-a6dd-573c-54c157841012",
                         "designerReference": [
                             {
                                 "_key": "componentLabel",

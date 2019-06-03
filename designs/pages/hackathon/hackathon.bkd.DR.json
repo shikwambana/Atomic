@@ -215,7 +215,7 @@
                     },
                     {
                         "_key": "fxFlex.xs",
-                        "_value": "25",
+                        "_value": "20",
                         "_type": "kv",
                         "_attrDef": "c"
                     },
@@ -1140,6 +1140,12 @@
                     "_value": "false",
                     "_type": "kv",
                     "_attrDef": "p"
+                },
+                {
+                    "_key": "fxFlex.xs",
+                    "_value": "100",
+                    "_type": "kv",
+                    "_attrDef": "c"
                 }
             ],
             "60617187-5194-cd88-d703-cc05e9b67aef": {
@@ -1218,6 +1224,12 @@
                         "_value": "prizeContainer",
                         "_type": "kv",
                         "_attrDef": "c"
+                    },
+                    {
+                        "_key": "fxFlex.xs",
+                        "_value": "100",
+                        "_type": "kv",
+                        "_attrDef": "c"
                     }
                 ],
                 "9dfdc1ba-9007-5325-1565-3b622d28fd8d": {
@@ -1286,8 +1298,8 @@
                             "_attrDef": "p"
                         },
                         {
-                            "_key": "fxHide.sm",
-                            "_value": "true",
+                            "_key": "ngClass.xs",
+                            "_value": "redcirclexs",
                             "_type": "kv",
                             "_attrDef": "c"
                         }

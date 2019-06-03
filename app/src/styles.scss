@@ -101,6 +101,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 }
 
+.redcirclexs {
+    
+    margin-bottom: -150px;
+
+}
+
 .rightside img {
     // border: white 2px solid;
     padding: 20px;
@@ -150,6 +156,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .menu button {
     font-size: 1.5em;
+}
+
+.menuxs button {
+    font-size: 1.2em;
 }
 
 .countdown .measurements {
@@ -208,8 +218,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .prizeContainer {
-    width: 100%;
+    width: 80%;
     margin-top: 0px !important;
+    margin-bottom: 15% !important;
 }
 
 
@@ -226,7 +237,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 1em;
 }
 .countDownContainer {
-   margin: 50px 0 0 !important;
+   margin: 50px 0 !important;
 }
 
 .textTablet {
@@ -251,7 +262,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .mobilePicture {
     padding: 0 !important;
-    margin-top: 55px !important;
+    margin-top: 0px !important;
+    margin-left: -10%;
     // margin-left: -50px !important;
 }
 
@@ -294,7 +306,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .countDownContainerxs {
-    margin-top: 35px 0 !important;
+    margin: 35px 0 !important;
     padding: 0;
 }
 
@@ -330,6 +342,22 @@ h1, h2, h3, h4, h5, h6, p {
 //=================================================================================
 // register page
 //=================================================================================
+
+.registerContainer {
+    margin: 5% 22%;
+    box-shadow: 0px 0px 0px 1px rgb(255, 255, 255);
+    padding: 30px 80px;
+    border-radius: 5px;
+}
+
+.registerContainersm {
+    margin: 5% 5%;
+    padding: 30px 40px;
+}
+
+.formbox {
+    padding: 0 10px;
+}
 .formContainer textarea {
     padding: 5px !important;
 }
@@ -341,10 +369,16 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .formContainer input, .formContainer textarea, .formContainer mat-select {
-        border: 2px white solid;
+    border: 2px white solid;
     padding: 5px;
     border-radius: 5px;
     margin-right: 15px;
+    height: 35px;
+    // width: 49em;
+}
+
+.formContainer button {
+    // width: 57em;
 }
 
 .formContainer .mat-form-field-underline {

@@ -428,6 +428,12 @@
                                     "_value": "/home",
                                     "_type": "kv",
                                     "_attrDef": "c"
+                                },
+                                {
+                                    "_key": "ngStyle.xs",
+                                    "_value": "    width: 9em;    margin-left: -25px;",
+                                    "_type": "kv",
+                                    "_attrDef": "c"
                                 }
                             ]
                         }
@@ -502,6 +508,12 @@
                                 "_value": "60",
                                 "_type": "kv",
                                 "_attrDef": "c"
+                            },
+                            {
+                                "_key": "ngClass.xs",
+                                "_value": "menuxs",
+                                "_type": "kv",
+                                "_attrDef": "c"
                             }
                         ],
                         "34963927-2326-2af2-be0c-8c1c16ec3f4b": {
@@ -568,6 +580,12 @@
                                     "_value": "false",
                                     "_type": "kv",
                                     "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "ngStyle.xs",
+                                    "_value": "    margin-right: -15%;",
+                                    "_type": "kv",
+                                    "_attrDef": "c"
                                 }
                             ],
                             "d310f3f8-b761-3ecc-a10d-62cd8d63b3d2": {
