@@ -2,9 +2,35 @@
   <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
     <h3>PARTICIPATION CRITERIA</h3>
   </div>
-  <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-    <div fxLayout="row wrap" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-      <div fxLayout="column wrap" class="cardCriteria" fxFlex="30" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" *ngFor="let item of info" fxFlex.xs="90">
+  <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+    <div class="slider">
+      <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+        <div fxLayout="row wrap" class="slideshow" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+          <div fxLayout="column wrap" class="cardCriteria" fxFlex="30" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" *ngFor="let item of info" fxFlex.xs="90">
+            <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+              <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+                <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+                  <h1>{{item.number}}</h1>
+                </div>
+                <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+                  <p>{{item.title}}</p>
+                </div>
+              </div>
+            </div>
+            <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+              <ul *ngFor="let content of item.content">
+                <li>{{content}}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="true">
+    <div fxLayout="row wrap" class="slideshow" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <div fxLayout="column wrap" class="cardCriteria" fxFlex="30" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" *ngFor="let item of info" fxFlex.xs="90" ngClass.xs="cardCriteriaxs">
         <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
           <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
             <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">

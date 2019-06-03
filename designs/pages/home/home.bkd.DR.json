@@ -130,7 +130,7 @@
                     "_attrDef": "p"
                 },
                 {
-                    "_key": "ngClass",
+                    "_key": "ngClass.sm",
                     "_value": "containerTablet",
                     "_type": "kv",
                     "_attrDef": "c"
@@ -311,7 +311,7 @@
                             },
                             {
                                 "_key": "layoutAlign",
-                                "_value": "start",
+                                "_value": "center",
                                 "_type": "a",
                                 "_attrDef": "p"
                             },

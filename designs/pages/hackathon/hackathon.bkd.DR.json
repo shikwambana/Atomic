@@ -161,7 +161,7 @@
                     },
                     {
                         "_key": "fxFlex",
-                        "_value": "50",
+                        "_value": "60",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -215,7 +215,7 @@
                     },
                     {
                         "_key": "fxFlex.xs",
-                        "_value": "25",
+                        "_value": "20",
                         "_type": "kv",
                         "_attrDef": "c"
                     },
@@ -381,7 +381,7 @@
                     },
                     {
                         "_key": "fxFlex",
-                        "_value": "",
+                        "_value": "35",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -616,7 +616,7 @@
                             },
                             {
                                 "_key": "html",
-                                "_value": "<div class=\"verticalLine\"></div>\r\n<h1><span class=\"eventNameRed\">A</span>TOM<span class=\"eventNameRed\">I</span>CITY</h1>\r\n<h3>HACKATHON CHALLENGE</h3>\r\n<hr class=\"horLine\"></hr>\r\n<div class=\"verticalLine\" style=\"height: 15.3em;\"></div>",
+                                "_value": "<div class=\"verticalLine\"></div>\r\n<h1><span class=\"eventNameRed\">A</span>TOM<span class=\"eventNameRed\">I</span>CITY</h1>\r\n<h3>HACKATHON CHALLENGE</h3>\r\n<hr class=\"horLine\"></hr>\r\n<div class=\"verticalLine\"></div>",
                                 "_type": "a",
                                 "_attrDef": "p"
                             }
@@ -704,7 +704,7 @@
                     },
                     {
                         "_key": "style",
-                        "_value": "margin-top: -35%;",
+                        "_value": "",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -1083,7 +1083,7 @@
                 },
                 {
                     "_key": "style",
-                    "_value": "",
+                    "_value": "margin-top: -2%",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -1095,7 +1095,7 @@
                 },
                 {
                     "_key": "fxFlex",
-                    "_value": "",
+                    "_value": "85",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -1155,7 +1155,7 @@
                     },
                     {
                         "_key": "class",
-                        "_value": "",
+                        "_value": "prizeContainerLaptop",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -1351,6 +1351,12 @@
                             "_value": "prizeTablet",
                             "_type": "kv",
                             "_attrDef": "c"
+                        },
+                        {
+                            "_key": "ngClass.sm",
+                            "_value": "prizesm",
+                            "_type": "kv",
+                            "_attrDef": "c"
                         }
                     ],
                     "40d386d2-a1b1-5272-9a51-8f29849fa9ec": {
@@ -1402,7 +1408,7 @@
                             },
                             {
                                 "_key": "H2 Text",
-                                "_value": "50 000",
+                                "_value": "INR 50,000",
                                 "_type": "a",
                                 "_attrDef": "p",
                                 "_useAsLabel": true

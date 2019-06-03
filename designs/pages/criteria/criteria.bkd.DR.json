@@ -162,6 +162,104 @@
                 ]
             }
         },
+        "ef5810a4-9cc9-00cc-e5ff-b0dbd61314a0": {
+            "paletteKey": "FlexLayoutCol",
+            "parentEditorKey": "6601c04e-bb21-a8ba-a250-722950c4515b",
+            "designerReference": [
+                {
+                    "_key": "componentLabel",
+                    "_value": "Column",
+                    "_type": "kv",
+                    "_attrDef": "p",
+                    "_useAsLabel": true
+                },
+                {
+                    "_key": "style",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "class",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "fxFlex",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "fxLayoutGap",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "wrap",
+                    "_value": "wrap",
+                    "_type": "a",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "layoutAlign",
+                    "_value": "start",
+                    "_type": "a",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "pLayoutAlign",
+                    "_value": "stretch",
+                    "_type": "a",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "fxShow",
+                    "_value": "true",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "fxHide",
+                    "_value": "false",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                }
+            ],
+            "d021d108-6bff-6435-4a99-af13e2af473e": {
+                "paletteKey": "HTML",
+                "parentEditorKey": "ef5810a4-9cc9-00cc-e5ff-b0dbd61314a0",
+                "designerReference": [
+                    {
+                        "_key": "componentLabel",
+                        "_value": "HTML",
+                        "_type": "kv",
+                        "_attrDef": "p",
+                        "_useAsLabel": true
+                    },
+                    {
+                        "_key": "style",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "class",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "html",
+                        "_value": "<div class=\"slider\"> \r\n <div fxLayout=\"column wrap\" fxFlex=\"100\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\">\r\n    <div fxLayout=\"row wrap\" class=\"slideshow\" fxFlex=\"100\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\">\r\n      <div fxLayout=\"column wrap\" class=\"cardCriteria\" fxFlex=\"30\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\" *ngFor=\"let item of info\" fxFlex.xs=\"90\">\r\n        <div fxLayout=\"column wrap\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\">\r\n          <div fxLayout=\"row wrap\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\">\r\n            <div fxLayout=\"column wrap\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\">\r\n              <h1>{{item.number}}</h1>\r\n            </div>\r\n            <div fxLayout=\"column wrap\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\">\r\n              <p>{{item.title}}</p>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div fxLayout=\"column wrap\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\">\r\n          <ul *ngFor=\"let content of item.content\">\r\n            <li>{{content}}</li>\r\n          </ul>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n</div>",
+                        "_type": "a",
+                        "_attrDef": "p"
+                    }
+                ]
+            }
+        },
         "f0e018c4-3efc-f6f6-7456-f44ec9479805": {
             "paletteKey": "FlexLayoutCol",
             "parentEditorKey": "6601c04e-bb21-a8ba-a250-722950c4515b",
@@ -223,7 +321,7 @@
                 },
                 {
                     "_key": "fxHide",
-                    "_value": "false",
+                    "_value": "true",
                     "_type": "kv",
                     "_attrDef": "p"
                 }
@@ -247,7 +345,7 @@
                     },
                     {
                         "_key": "class",
-                        "_value": "",
+                        "_value": "slideshow",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -368,6 +466,12 @@
                         {
                             "_key": "fxFlex.xs",
                             "_value": "90",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "ngClass.xs",
+                            "_value": "cardCriteriaxs",
                             "_type": "kv",
                             "_attrDef": "c"
                         }
