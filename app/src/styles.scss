@@ -91,6 +91,12 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 65px;
 }
 
+.prizexs {
+    height: 150px;
+    width: 150px;
+    font-size: 0.9em;
+}
+
 .redCircle {
     height: 50px;
   width: 50px;
@@ -109,7 +115,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .rightside img {
     // border: white 2px solid;
-    padding: 20px;
+    padding: 20px 60px 0;
     border-left: none;
     // margin-left: 80px;
     // opacity: 0.4;
@@ -167,7 +173,7 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: white;
     color: black;
     padding: 20px;
-    margin-right: 5px;
+    margin: 0 5px;
 }
 
 // Tk
@@ -204,7 +210,6 @@ h1, h2, h3, h4, h5, h6, p {
 .pictureTablet {
     padding: 0;
     width: 70% !important;
-    margin-top: 70px;
 }
 
 .pictureTablet img {
@@ -218,19 +223,23 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .prizeContainer {
-    width: 80%;
-    margin-top: 0px !important;
-    margin-bottom: 15% !important;
+    width: 100%;
+    margin-top: -30% !important;
+    margin-bottom: 10% !important;
 }
 
 
 .prizeContainerLaptop {
-    margin-top: -12%;
+    margin-top: -10%;
 }
 
 .prizeTablet {
-    margin-top: 0px !important;
+    // margin-top: 0px !important;
     // width: 100% !important;
+}
+
+.countDownContainerlt-lg {
+    padding-right: 0px !important;
 }
 
 .prize h2 {
@@ -290,7 +299,7 @@ h1, h2, h3, h4, h5, h6, p {
 .contentTabletxs {
     margin: 0 !important;
     padding: 36px 0 0;
-    width: 80%;
+    // width: 80%;
 }
 
 .contentTabletxs p {
@@ -306,8 +315,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .countDownContainerxs {
-    margin: 35px 0 !important;
-    padding: 0;
+    padding: 0 !important;
+    position: absolute;
+    bottom: 5px;
+}
+
+.countDownContainerxs .measurements {
+        padding: 10px;
 }
 
 //=================================================================================
@@ -344,7 +358,7 @@ h1, h2, h3, h4, h5, h6, p {
 //=================================================================================
 
 .registerContainer {
-    margin: 5% 22%;
+    margin: 5% 15%;
     box-shadow: 0px 0px 0px 1px rgb(255, 255, 255);
     padding: 30px 80px;
     border-radius: 5px;
@@ -353,6 +367,15 @@ h1, h2, h3, h4, h5, h6, p {
 .registerContainersm {
     margin: 5% 5%;
     padding: 30px 40px;
+}
+
+.registerContainerxs {
+    margin: 5%;
+    padding: 30px 35px;
+}
+
+.formContainerxs {
+
 }
 
 .formbox {

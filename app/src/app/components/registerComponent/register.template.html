@@ -1,10 +1,10 @@
 <div fxLayout="column wrap" class="registerContainer" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.sm="registerContainersm" ngClass.xs="registerContainerxs">
-  <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+  <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngStyle.sm="text-align: center;">
     <h3>REGISTER</h3>
   </div>
-  <div fxLayout="column wrap" class="formContainer" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngStyle.xs="padding-left: 15px;" ngStyle.sm="padding-left: 30px;">
+  <div fxLayout="column wrap" class="formContainer" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.xs="formContainerxs">
     <div fxLayout="row wrap" fxFlex="100" fxLayoutAlign="space-between start" fxShow="true" fxHide="false">
-      <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="space-around stretch" fxShow="true" fxHide="false" fxFlex.xs="90" fxFlex.sm="90">
+      <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="space-around stretch" fxShow="true" fxHide="false" fxFlex.xs="90" fxFlex.sm="90" fxFlex.md="90">
         <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Full Name</label>
           <mat-form-field class="inputInfo">
             <input matInput [(ngModel)]="details.fullName" name="fullName" required>
@@ -28,7 +28,7 @@
           </mat-form-field>
         </div>
       </div>
-      <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFlex.sm="90">
+      <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFlex.sm="90" fxFlex.xs="90" fxFlex.md="90">
         <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Why do you want to take part in the AI Hackathon</label>
           <mat-form-field>
             <textarea matInput [(ngModel)]="details.reason" required></textarea>

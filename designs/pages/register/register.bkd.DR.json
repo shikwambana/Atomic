@@ -140,6 +140,12 @@
                     "_value": "false",
                     "_type": "kv",
                     "_attrDef": "p"
+                },
+                {
+                    "_key": "ngStyle.sm",
+                    "_value": "text-align: center;",
+                    "_type": "kv",
+                    "_attrDef": "c"
                 }
             ],
             "3246650e-c5db-991d-4105-aaa0666e9ce9": {
@@ -240,14 +246,8 @@
                     "_attrDef": "p"
                 },
                 {
-                    "_key": "ngStyle.xs",
-                    "_value": "padding-left: 15px;",
-                    "_type": "kv",
-                    "_attrDef": "c"
-                },
-                {
-                    "_key": "ngStyle.sm",
-                    "_value": "padding-left: 30px;",
+                    "_key": "ngClass.xs",
+                    "_value": "formContainerxs",
                     "_type": "kv",
                     "_attrDef": "c"
                 }
@@ -391,6 +391,12 @@
                         },
                         {
                             "_key": "fxFlex.sm",
+                            "_value": "90",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "fxFlex.md",
                             "_value": "90",
                             "_type": "kv",
                             "_attrDef": "c"
@@ -1176,6 +1182,18 @@
                         },
                         {
                             "_key": "fxFlex.sm",
+                            "_value": "90",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "fxFlex.xs",
+                            "_value": "90",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "fxFlex.md",
                             "_value": "90",
                             "_type": "kv",
                             "_attrDef": "c"
