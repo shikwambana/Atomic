@@ -328,14 +328,40 @@ h1, h2, h3, h4, h5, h6, p {
 // Criteria page
 //=================================================================================
 
+//horizontal scroll for criteria in mobile
+.outer {
+    width: 100%;
+    height: auto;
+    // white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+        display: -webkit-box !important;
+}
+
+.outer cardCriteriaxs {
+    // width: 24.5%;
+    // background-color: #eee;
+    float: none;
+    height: 90%;
+    // margin: 0 0.25%;
+    display: inline-block;
+    zoom: 1;
+}
+
+.slideshowxs {
+        // display: -webkit-box !important;
+        //     overflow-X: scroll;
+}
 .cardCriteria {
     margin: 35px 35px 0 0;
     border: 2px white solid;
     padding: 20px;
 }
 
-.cardCriteriaxs {
-    margin: 35px !important;
+.cardCriteriaxs ul {
+        font-size: 1em !important;
 }
 
 .cardCriteria h1 {
@@ -415,8 +441,4 @@ h1, h2, h3, h4, h5, h6, p {
 
 .formContainer button {
     background-color: red;
-}
-
-.cardCriteriaxs {
-        margin: 35px 35px !important;
 }

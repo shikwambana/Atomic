@@ -158,202 +158,12 @@
                         "_value": "",
                         "_type": "kv",
                         "_attrDef": "p"
-                    }
-                ]
-            }
-        },
-        "f01abe66-1b5d-667a-96d8-3ed33d76b320": {
-            "paletteKey": "FlexLayoutCol",
-            "parentEditorKey": "6601c04e-bb21-a8ba-a250-722950c4515b",
-            "designerReference": [
-                {
-                    "_key": "componentLabel",
-                    "_value": "Column",
-                    "_type": "kv",
-                    "_attrDef": "p",
-                    "_useAsLabel": true
-                },
-                {
-                    "_key": "style",
-                    "_value": "",
-                    "_type": "kv",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "class",
-                    "_value": "",
-                    "_type": "kv",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "fxFlex",
-                    "_value": "",
-                    "_type": "kv",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "fxLayoutGap",
-                    "_value": "",
-                    "_type": "kv",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "wrap",
-                    "_value": "wrap",
-                    "_type": "a",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "layoutAlign",
-                    "_value": "start",
-                    "_type": "a",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "pLayoutAlign",
-                    "_value": "stretch",
-                    "_type": "a",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "fxShow",
-                    "_value": "true",
-                    "_type": "kv",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "fxHide",
-                    "_value": "true",
-                    "_type": "kv",
-                    "_attrDef": "p"
-                }
-            ],
-            "33e080d8-7558-8a5d-386a-c459d9f18e6b": {
-                "paletteKey": "HTML",
-                "parentEditorKey": "f01abe66-1b5d-667a-96d8-3ed33d76b320",
-                "designerReference": [
-                    {
-                        "_key": "componentLabel",
-                        "_value": "HTML",
-                        "_type": "kv",
-                        "_attrDef": "p",
-                        "_useAsLabel": true
                     },
                     {
-                        "_key": "style",
-                        "_value": "",
+                        "_key": "ngStyle.xs",
+                        "_value": "    margin: 20px 0;",
                         "_type": "kv",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "class",
-                        "_value": "",
-                        "_type": "kv",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "html",
-                        "_value": "<!-- <div id=\"container\">\r\n      <div\r\n        ng2-carouselamos\r\n        class=\"slides-wrapper\"\r\n        [items]=\"items\"\r\n        [width]=\"900\"\r\n        [$prev]=\"prev\"\r\n        [$next]=\"next\"\r\n        [$item]=\"info\"\r\n      >\r\n      </div>\r\n\r\n  <ng-template #prev>\r\n      <img src=\"assets/images/left-arrow.png\" id=\"left\" />\r\n    </ng-template>\r\n    <ng-template #next>\r\n      <img src=\"assets/images/right-arrow.png\" id=\"right\" />\r\n    </ng-template>\r\n    <ng-template #item let-item let-i=\"index\">\r\n\r\n        <div class=\"items\">\r\n          <h1>{{item.title}}\r\n        </div>\r\n\r\n    </ng-template> -->",
-                        "_type": "a",
-                        "_attrDef": "p"
-                    }
-                ]
-            }
-        },
-        "ef5810a4-9cc9-00cc-e5ff-b0dbd61314a0": {
-            "paletteKey": "FlexLayoutCol",
-            "parentEditorKey": "6601c04e-bb21-a8ba-a250-722950c4515b",
-            "designerReference": [
-                {
-                    "_key": "componentLabel",
-                    "_value": "Column",
-                    "_type": "kv",
-                    "_attrDef": "p",
-                    "_useAsLabel": true
-                },
-                {
-                    "_key": "style",
-                    "_value": "",
-                    "_type": "kv",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "class",
-                    "_value": "",
-                    "_type": "kv",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "fxFlex",
-                    "_value": "",
-                    "_type": "kv",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "fxLayoutGap",
-                    "_value": "",
-                    "_type": "kv",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "wrap",
-                    "_value": "wrap",
-                    "_type": "a",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "layoutAlign",
-                    "_value": "start",
-                    "_type": "a",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "pLayoutAlign",
-                    "_value": "stretch",
-                    "_type": "a",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "fxShow",
-                    "_value": "true",
-                    "_type": "kv",
-                    "_attrDef": "p"
-                },
-                {
-                    "_key": "fxHide",
-                    "_value": "true",
-                    "_type": "kv",
-                    "_attrDef": "p"
-                }
-            ],
-            "d021d108-6bff-6435-4a99-af13e2af473e": {
-                "paletteKey": "HTML",
-                "parentEditorKey": "ef5810a4-9cc9-00cc-e5ff-b0dbd61314a0",
-                "designerReference": [
-                    {
-                        "_key": "componentLabel",
-                        "_value": "HTML",
-                        "_type": "kv",
-                        "_attrDef": "p",
-                        "_useAsLabel": true
-                    },
-                    {
-                        "_key": "style",
-                        "_value": "",
-                        "_type": "kv",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "class",
-                        "_value": "",
-                        "_type": "kv",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "html",
-                        "_value": "<div class=\"slider\"> \r\n <div fxLayout=\"column wrap\" fxFlex=\"100\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\">\r\n    <div fxLayout=\"row wrap\" class=\"slideshow\" fxFlex=\"100\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\">\r\n      <div fxLayout=\"column wrap\" class=\"cardCriteria\" fxFlex=\"30\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\" *ngFor=\"let item of info\" fxFlex.xs=\"90\">\r\n        <div fxLayout=\"column wrap\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\">\r\n          <div fxLayout=\"row wrap\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\">\r\n            <div fxLayout=\"column wrap\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\">\r\n              <h1>{{item.number}}</h1>\r\n            </div>\r\n            <div fxLayout=\"column wrap\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\">\r\n              <p>{{item.title}}</p>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div fxLayout=\"column wrap\" fxLayoutAlign=\"start stretch\" fxShow=\"true\" fxHide=\"false\">\r\n          <ul *ngFor=\"let content of item.content\">\r\n            <li>{{content}}</li>\r\n          </ul>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n</div>",
-                        "_type": "a",
-                        "_attrDef": "p"
+                        "_attrDef": "c"
                     }
                 ]
             }
@@ -419,7 +229,7 @@
                 },
                 {
                     "_key": "fxHide",
-                    "_value": "true",
+                    "_value": "false",
                     "_type": "kv",
                     "_attrDef": "p"
                 }
@@ -488,6 +298,18 @@
                         "_value": "false",
                         "_type": "kv",
                         "_attrDef": "p"
+                    },
+                    {
+                        "_key": "ngClass.xs",
+                        "_value": "outer",
+                        "_type": "kv",
+                        "_attrDef": "c"
+                    },
+                    {
+                        "_key": "ngClass.sm",
+                        "_value": "outer",
+                        "_type": "kv",
+                        "_attrDef": "c"
                     }
                 ],
                 "4bc25c9f-dd46-1f7e-824a-783b3cedc741": {
@@ -563,13 +385,19 @@
                         },
                         {
                             "_key": "fxFlex.xs",
-                            "_value": "90",
+                            "_value": "52",
                             "_type": "kv",
                             "_attrDef": "c"
                         },
                         {
                             "_key": "ngClass.xs",
                             "_value": "cardCriteriaxs",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "fxFlex.sm",
+                            "_value": "55",
                             "_type": "kv",
                             "_attrDef": "c"
                         }

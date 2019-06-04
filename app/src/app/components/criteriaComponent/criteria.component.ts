@@ -53,6 +53,26 @@ export class criteriaComponent extends NBaseComponent implements OnInit {
         }
         
     ]
+
+    config = {
+        width:"800px", //width of slides defaults to 800px
+        height:"300px", //height of slides defaults to 300px
+        autoPlay:true, //autoplay required or not defaults to false
+        delay: 3000 // delay for autoplay
+      }
+
+      slideImages = [
+    {
+      image: '../../../assets/Web/robot.jpg', //path to image
+      title: 'Image1' //caption for image
+    },
+    {
+      image: '../../../assets/Web/robot.png', //path to image
+      title: 'Image1' //caption for image
+    }
+]
+
+
     ngOnInit() {
 
     }

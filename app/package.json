@@ -52,6 +52,8 @@
         "ng2-carouselamos": "^3.2.0",
         "ng2-charts": "1.6.0",
         "ng2-date-countdown": "1.0.3",
+        "ngslides": "^1.0.0",
+        "ngx-slides": "^1.0.1",
         "node-sass": "4.11.0",
         "phonegap-plugin-barcodescanner": "^8.0.1",
         "phonegap-plugin-multidex": "^1.0.0",
