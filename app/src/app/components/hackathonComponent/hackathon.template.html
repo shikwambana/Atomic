@@ -1,43 +1,49 @@
-<div fxLayout="column wrap" class="content" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-  <div fxLayout="row wrap" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.sm="headlineTablet">
-    <div fxLayout="column wrap" class="info" fxFlex="60" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.sm="infoTablet" fxFlex.sm="25" fxFlex.xs="25" ngClass.xs="infoMobile">
-      <div fxLayout="column wrap" class="date" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+<div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFill>
+  <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+    <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <div fxLayout="column wrap" class="date" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxHide.gt-sm="true">
         <h2>22-23</h2>
         <h4 ngStyle.sm="padding-left: 30px;">JUNE<br>2019</h4>
       </div>
     </div>
-    <div fxLayout="column wrap" class="rightside" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFlex.sm="65" fxFlex.xs="70" ngClass.xs="mobilePicture" ngClass.sm="pictureTablet"><img imgSrc="/Web/robot2.png">
-      <div fxLayout="column wrap" class="eventName" fxLayoutAlign="start stretch" fxShow="true" fxHide="true">
-        <div class="verticalLine"></div>
-        <h1><span class="eventNameRed">A</span>TOM<span class="eventNameRed">I</span>CITY</h1>
-        <h3>HACKATHON CHALLENGE</h3>
-        <hr class="horLine">
-        <div class="verticalLine"></div>
+    <div fxLayout="row wrap" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.sm="headlineTablet">
+      <div fxLayout="column wrap" class="info" fxFlex="60" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.sm="infoTablet" fxFlex.sm="25" fxFlex.xs="25" ngClass.xs="infoMobile" fxHide.sm="true">
+        <div fxLayout="column wrap" class="date" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+          <h2>22-23</h2>
+          <h4 ngStyle.sm="padding-left: 30px;">JUNE<br>2019</h4>
+        </div>
+        <div fxLayout="column wrap" style="padding-top:1.5em" class="text" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngStyle.sm="width:100%" fxFlex.sm="100" ngClass.sm="textTablet" fxFlex.xs="100">
+          <h2>Neutrinos AI Challenge 48 Hours<br>What can you Build?</h2>
+          <p>48 Hours - Discover, Discuss and Solve the problems in the modern industry by using AI technology!<br>This is a hackathon about having a good time! We&apos;re giving you fun themes to hack towards so that you can both exercise your hacking chops.</p><button mat-button routerLink="criteria">Read More</button>
+        </div>
+      </div>
+      <div fxLayout="column wrap" class="rightside" fxFlex="40" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFlex.sm="65" fxFlex.xs="70" ngClass.xs="mobilePicture" ngClass.sm="pictureTablet"><img imgSrc="/Web/robot2.png">
+        <div fxLayout="column wrap" class="eventName" fxLayoutAlign="start stretch" fxShow="true" fxHide="true">
+          <div class="verticalLine"></div>
+          <h1><span class="eventNameRed">A</span>TOM<span class="eventNameRed">I</span>CITY</h1>
+          <h3>HACKATHON CHALLENGE</h3>
+          <hr class="horLine">
+          <div class="verticalLine"></div>
+        </div>
       </div>
     </div>
-  </div>
-  <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-    <div fxLayout="row wrap" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.xs="contentTabletxs" ngClass.sm="contentTablet">
-      <div fxLayout="column wrap" class="text" fxFlex="50" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngStyle.sm="width:100%" fxFlex.sm="100" ngClass.sm="textTablet" fxFlex.xs="100">
+    <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxHide.gt-sm="true">
+      <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
         <h2>Neutrinos AI Challenge 48 Hours<br>What can you Build?</h2>
         <p>48 Hours - Discover, Discuss and Solve the problems in the modern industry by using AI technology!<br>This is a hackathon about having a good time! We&apos;re giving you fun themes to hack towards so that you can both exercise your hacking chops.</p><button mat-button routerLink="criteria">Read More</button>
       </div>
-      <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngStyle.sm="display: none" fxHide.sm="true" fxHide.xs="true" fxFlex.xs="0" fxFlex.sm="0"></div>
     </div>
-  </div>
-  <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFlex.xs="100">
-    <div fxLayout="row wrap" class="prizeContainerLaptop" fxLayoutAlign="center center" fxShow="true" fxHide="false" ngClass.sm="prizeTablet" ngClass.xs="prizeContainer" fxFlex.xs="100">
+    <div fxLayout="row wrap" style="bottom: 3%;     left: 40%;     position: absolute;" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
       <div fxLayout="column wrap" class="redCircle" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.xs="redcirclexs"></div>
       <div fxLayout="column wrap" class="prize" fxLayoutAlign="center center" fxShow="true" fxHide="false" ngClass="prizeTablet" ngClass.sm="prizesm" ngClass.xs="prizexs">
         <h4>Prize</h4>
         <h2>INR 50,000</h2>
       </div>
     </div>
-    <div fxLayout="column wrap" fxLayoutAlign="  none" fxShow="true" fxHide="false">
-      <countdown units="Days | Hours | Minutes | Seconds" end="June 22, 2019"></countdown>
-    </div>
-    <div fxLayout="column wrap" style="padding-right: 85px;     margin-top: -15%;" fxLayoutAlign="end end" fxShow="true" fxHide="true" ngClass.sm="countDownContainer" ngClass.xs="countDownContainerxs" fxFlex.xs="100" ngClass.lt-lg="countDownContainerlt-lg">
-      <countdown units="Days | Hours | Minutes | Seconds" end="June 22, 2019"></countdown>
+    <div fxLayout="row wrap" style="position: absolute;     bottom: 5%;     right: 5%;" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.md="countmd">
+      <div fxLayout="column wrap" fxLayoutAlign="  none" fxShow="true" fxHide="false">
+        <countdown units="Days | Hours | Minutes | Seconds" end="June 22, 2019"></countdown>
+      </div>
     </div>
   </div>
 </div>

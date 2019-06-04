@@ -20,23 +20,23 @@ body {
 
     background-size: auto;
     background-repeat: no-repeat;
-    height: 100%;
+    // height: 100%;
 }
 
 .container {
     padding: 0px 80px;
-    height: 100vh;
-    overflow: hidden;
-    overflow-x: hidden;
+    // height: 100vh;
+    // overflow: hidden;
+    // overflow-x: hidden;
     display: block !important;
 }
 
 .containerTablet {
-    overflow-y: scroll;
+    // overflow-y: scroll;
 }
 .containerMobile {
         padding: 0px 15px;
-        overflow-y: scroll;
+        // overflow-y: scroll;
 }
 
 //=================================================================================
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .date {
-        margin: 25px 0;
+        // margin: 25px 0;
 }
 
 .date h2, .eventName h1 {
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .text p, .eventName h3 {
     font-size: 1.2em;
-    padding-top: 10px;
+    // padding-top: 10px;
 }
 
 .text button {
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6, p {
     height: 200px;
     width: 200px;
     font-size: 1.6em;
-    margin-top: 65px;
+    // margin-top: 65px;
 }
 
 .prizexs {
@@ -102,8 +102,8 @@ h1, h2, h3, h4, h5, h6, p {
   width: 50px;
   background-color: rgba(255, 0, 0, 0.5098039215686274);
   border-radius: 50%;
-  margin-bottom: -200px;
-    margin-right: -35px;
+//   margin-bottom: -200px;
+//     margin-right: -35px;
 
 }
 
@@ -132,17 +132,8 @@ h1, h2, h3, h4, h5, h6, p {
     color: red;
 }
 
-.verticalLine {
-    border-left: 2px white solid;
-    height: 12em;
-    position: initial;
-    margin-left: 78px;
-    opacity: 0.4;
-}
 
-.text {
-        margin-top: -9%;
-}
+
 
 .horLine {
     color: black;
@@ -178,9 +169,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 // Tk
 .mainContainer {
-        height: 100vh;
-    overflow: scroll;
-    overflow-x: hidden;
+        // height: 100vh;
+    // overflow: scroll;
+    // overflow-x: hidden;
     display: block;
 }
 
@@ -215,10 +206,6 @@ h1, h2, h3, h4, h5, h6, p {
 .pictureTablet img {
         width: 80%;
 
-}
-
-.pictureTablet .verticalLine {
-    height: 10em !important;
 }
 
 
@@ -275,10 +262,6 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 0px !important;
     margin-left: -10%;
     // margin-left: -50px !important;
-}
-
-.mobilePicture .verticalLine {
-    height: 4em !important;
 }
 
 .mobilePicture img {
@@ -442,4 +425,14 @@ h1, h2, h3, h4, h5, h6, p {
 
 .formContainer button {
     background-color: red;
+}
+
+//================================
+// after CJ review
+
+.countmd {
+    position: absolute;
+    bottom: 5%;
+    right: 0%;
+
 }
