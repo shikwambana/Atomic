@@ -1113,7 +1113,7 @@
                 },
                 {
                     "_key": "fxFlex",
-                    "_value": "85",
+                    "_value": "",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -1465,6 +1465,104 @@
                     }
                 }
             },
+            "455ea366-7288-0395-e0c1-c4526ce16c36": {
+                "paletteKey": "FlexLayoutCol",
+                "parentEditorKey": "2ad63f99-a848-6ad0-8534-168cdfc5682c",
+                "designerReference": [
+                    {
+                        "_key": "componentLabel",
+                        "_value": "Column",
+                        "_type": "kv",
+                        "_attrDef": "p",
+                        "_useAsLabel": true
+                    },
+                    {
+                        "_key": "style",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "class",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxFlex",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxLayoutGap",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "wrap",
+                        "_value": "wrap",
+                        "_type": "a",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "layoutAlign",
+                        "_value": " ",
+                        "_type": "a",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "pLayoutAlign",
+                        "_value": "none",
+                        "_type": "a",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxShow",
+                        "_value": "true",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxHide",
+                        "_value": "false",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    }
+                ],
+                "b639f57f-067b-ed9e-2051-a2729bc3e29a": {
+                    "paletteKey": "HTML",
+                    "parentEditorKey": "455ea366-7288-0395-e0c1-c4526ce16c36",
+                    "designerReference": [
+                        {
+                            "_key": "componentLabel",
+                            "_value": "HTML",
+                            "_type": "kv",
+                            "_attrDef": "p",
+                            "_useAsLabel": true
+                        },
+                        {
+                            "_key": "style",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "class",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "html",
+                            "_value": "<countdown units=\"Days | Hours | Minutes | Seconds\"  end=\"June 22, 2019\"></countdown>",
+                            "_type": "a",
+                            "_attrDef": "p"
+                        }
+                    ]
+                }
+            },
             "1b8921d5-0468-e733-99ab-b0d62e4af6ba": {
                 "paletteKey": "FlexLayoutCol",
                 "parentEditorKey": "2ad63f99-a848-6ad0-8534-168cdfc5682c",
@@ -1478,7 +1576,7 @@
                     },
                     {
                         "_key": "style",
-                        "_value": "padding-right: 85px;     margin-top: -10%;",
+                        "_value": "padding-right: 85px;     margin-top: -15%;",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -1490,7 +1588,7 @@
                     },
                     {
                         "_key": "fxFlex",
-                        "_value": "75",
+                        "_value": "",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -1526,7 +1624,7 @@
                     },
                     {
                         "_key": "fxHide",
-                        "_value": "false",
+                        "_value": "true",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -1580,7 +1678,7 @@
                         },
                         {
                             "_key": "html",
-                            "_value": "<!-- <countdown units=\"Days | Hours | Minutes | Seconds\"  end=\"June 22, 2019\"></countdown> -->",
+                            "_value": "<countdown units=\"Days | Hours | Minutes | Seconds\"  end=\"June 22, 2019\"></countdown>",
                             "_type": "a",
                             "_attrDef": "p"
                         }

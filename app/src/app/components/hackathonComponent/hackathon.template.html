@@ -25,7 +25,7 @@
       <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngStyle.sm="display: none" fxHide.sm="true" fxHide.xs="true" fxFlex.xs="0" fxFlex.sm="0"></div>
     </div>
   </div>
-  <div fxLayout="column wrap" fxFlex="85" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFlex.xs="100">
+  <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFlex.xs="100">
     <div fxLayout="row wrap" class="prizeContainerLaptop" fxLayoutAlign="center center" fxShow="true" fxHide="false" ngClass.sm="prizeTablet" ngClass.xs="prizeContainer" fxFlex.xs="100">
       <div fxLayout="column wrap" class="redCircle" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.xs="redcirclexs"></div>
       <div fxLayout="column wrap" class="prize" fxLayoutAlign="center center" fxShow="true" fxHide="false" ngClass="prizeTablet" ngClass.sm="prizesm" ngClass.xs="prizexs">
@@ -33,8 +33,11 @@
         <h2>INR 50,000</h2>
       </div>
     </div>
-    <div fxLayout="column wrap" style="padding-right: 85px;     margin-top: -10%;" fxFlex="75" fxLayoutAlign="end end" fxShow="true" fxHide="false" ngClass.sm="countDownContainer" ngClass.xs="countDownContainerxs" fxFlex.xs="100" ngClass.lt-lg="countDownContainerlt-lg">
-      <!-- <countdown units="Days | Hours | Minutes | Seconds"  end="June 22, 2019"></countdown> -->
+    <div fxLayout="column wrap" fxLayoutAlign="  none" fxShow="true" fxHide="false">
+      <countdown units="Days | Hours | Minutes | Seconds" end="June 22, 2019"></countdown>
+    </div>
+    <div fxLayout="column wrap" style="padding-right: 85px;     margin-top: -15%;" fxLayoutAlign="end end" fxShow="true" fxHide="true" ngClass.sm="countDownContainer" ngClass.xs="countDownContainerxs" fxFlex.xs="100" ngClass.lt-lg="countDownContainerlt-lg">
+      <countdown units="Days | Hours | Minutes | Seconds" end="June 22, 2019"></countdown>
     </div>
   </div>
 </div>

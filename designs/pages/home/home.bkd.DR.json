@@ -155,7 +155,7 @@
                     },
                     {
                         "_key": "style",
-                        "_value": "padding-top: 10px;",
+                        "_value": "    padding: 35px 0;",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
