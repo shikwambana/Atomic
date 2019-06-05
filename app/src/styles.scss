@@ -18,21 +18,13 @@ body {
     background-blend-mode: color;
     color: white;
 
-    background-size: auto;
+    // background-size: auto;
     background-repeat: no-repeat;
-    // height: 100%;
 }
 
 .container {
     padding: 0px 80px;
-    // height: 100vh;
-    // overflow: hidden;
-    // overflow-x: hidden;
     display: block !important;
-}
-
-.containerTablet {
-    // overflow-y: scroll;
 }
 .containerMobile {
         padding: 0px 15px;
@@ -77,6 +69,12 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 20px 0;
 }
 
+.readmore button {
+    width: 100px;
+    border: 1px solid white;
+    margin: 20px 0;
+}
+
 .rightside {
         // padding: 20px 35px;
 }
@@ -115,7 +113,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .rightside img {
     // border: white 2px solid;
-    padding: 20px 60px 0;
+    padding: 20px 0px;
     border-left: none;
     // margin-left: 80px;
     // opacity: 0.4;
@@ -183,9 +181,6 @@ h1, h2, h3, h4, h5, h6, p {
 //==========================
 //tablet 
 
-.containerTablet {
-        padding: 25px 20px;
-}
 .headlineTablet {
     display: -webkit-box;
 }
@@ -315,33 +310,29 @@ h1, h2, h3, h4, h5, h6, p {
 //horizontal scroll for criteria in mobile
 .outer {
     width: 100%;
-    height: auto;
+    height: auto !important;
     // white-space: nowrap;
     position: relative;
     overflow-x: scroll;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
         display: -webkit-box !important;
+        max-height: 620px !important;
 }
 
-.outer cardCriteriaxs {
+.cardCriteriaxs {
     // width: 24.5%;
     // background-color: #eee;
     float: none;
-    height: 90%;
+    // height: 90%;
     // margin: 0 0.25%;
     display: inline-block;
     zoom: 1;
 }
-
-.slideshowxs {
-        // display: -webkit-box !important;
-        //     overflow-X: scroll;
-}
 .cardCriteria {
     margin: 35px 35px 0 0;
     border: 2px white solid;
-    padding: 20px;
+    padding: 16px;
 }
 
 .cardCriteriaxs ul {
@@ -352,6 +343,18 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 3em;
     opacity: 0.8;
 
+}
+
+.cardcriteriasm h1 {
+    font-size: 2em;
+}
+
+.cardcriteriasm {
+        padding: 10px;
+}
+
+.cardcriteriasm li {
+    font-size: 1em;
 }
 
 .cardCriteria p {
@@ -368,37 +371,27 @@ h1, h2, h3, h4, h5, h6, p {
 //=================================================================================
 
 .registerContainer {
-    margin: 5% 15%;
+    // margin: 5% 15%;
     box-shadow: 0px 0px 0px 1px rgb(255, 255, 255);
     padding: 30px 80px;
     border-radius: 5px;
+    margin: auto;
 }
 
-.registerContainersm {
-    margin: 5% 5%;
-    padding: 30px 40px;
-}
+// .registerContainersm {
+//     // margin: 5% 5%;
+//     padding: 30px 40px;
+// }
 
 .registerContainerxs {
-    margin: 5%;
+    // margin: 5%;
     padding: 30px 35px;
 }
-
-.formContainerxs {
-
-}
-
 .formbox {
     padding: 0 10px;
 }
 .formContainer textarea {
     padding: 5px !important;
-}
-.inputInfo {
-    // width: 10em;
-}
-.formContainer {
-    margin: 50px 0;
 }
 
 .formContainer input, .formContainer textarea, .formContainer mat-select {
@@ -431,8 +424,28 @@ h1, h2, h3, h4, h5, h6, p {
 // after CJ review
 
 .countmd {
-    position: absolute;
-    bottom: 5%;
-    right: 0%;
+    // position: relative !important;
+    // bottom: 1% !important;
+    // right: 0% !important;
+    margin: 0 auto !important;
+        font-size: .6em;
+}
 
+
+.prizemd {
+        position: relative !important;
+}
+
+.prizesm {
+    position: relative !important;
+    bottom: 0 !important;
+    left: 0 !important;
+        padding: 20px 35px;
+}
+
+.countdownsm {
+    position: relative !important;
+        bottom: 0% !important;
+    right: 0% !important;
+    margin: 0 auto;
 }

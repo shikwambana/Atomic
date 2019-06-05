@@ -197,7 +197,7 @@
                     },
                     {
                         "_key": "fxHide",
-                        "_value": "false",
+                        "_value": "true",
                         "_type": "kv",
                         "_attrDef": "p"
                     }
@@ -369,7 +369,7 @@
                     },
                     {
                         "_key": "fxFlex",
-                        "_value": "100",
+                        "_value": "",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -502,12 +502,6 @@
                         {
                             "_key": "ngClass.xs",
                             "_value": "infoMobile",
-                            "_type": "kv",
-                            "_attrDef": "c"
-                        },
-                        {
-                            "_key": "fxHide.sm",
-                            "_value": "true",
                             "_type": "kv",
                             "_attrDef": "c"
                         }
@@ -733,6 +727,12 @@
                             {
                                 "_key": "fxFlex.xs",
                                 "_value": "100",
+                                "_type": "kv",
+                                "_attrDef": "c"
+                            },
+                            {
+                                "_key": "fxHide.lt-md",
+                                "_value": "true",
                                 "_type": "kv",
                                 "_attrDef": "c"
                             }
@@ -1222,13 +1222,13 @@
                         },
                         {
                             "_key": "class",
-                            "_value": "",
+                            "_value": "readmore",
                             "_type": "kv",
                             "_attrDef": "p"
                         },
                         {
                             "_key": "fxFlex",
-                            "_value": "",
+                            "_value": "100",
                             "_type": "kv",
                             "_attrDef": "p"
                         },
@@ -1458,6 +1458,30 @@
                         "_value": "false",
                         "_type": "kv",
                         "_attrDef": "p"
+                    },
+                    {
+                        "_key": "ngClass.md",
+                        "_value": "prizemd",
+                        "_type": "kv",
+                        "_attrDef": "c"
+                    },
+                    {
+                        "_key": "ngClass.sm",
+                        "_value": "prizesm",
+                        "_type": "kv",
+                        "_attrDef": "c"
+                    },
+                    {
+                        "_key": "ngClass.xs",
+                        "_value": "prizesm ",
+                        "_type": "kv",
+                        "_attrDef": "c"
+                    },
+                    {
+                        "_key": "ngStyle.xs",
+                        "_value": "margin: 0 auto;",
+                        "_type": "kv",
+                        "_attrDef": "c"
                     }
                 ],
                 "9dfdc1ba-9007-5325-1565-3b622d28fd8d": {
@@ -1694,7 +1718,7 @@
                     },
                     {
                         "_key": "style",
-                        "_value": "position: absolute;     bottom: 5%;     right: 5%;",
+                        "_value": "",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -1745,12 +1769,6 @@
                         "_value": "false",
                         "_type": "kv",
                         "_attrDef": "p"
-                    },
-                    {
-                        "_key": "ngClass.md",
-                        "_value": "countmd",
-                        "_type": "kv",
-                        "_attrDef": "c"
                     }
                 ],
                 "1b8921d5-0468-e733-99ab-b0d62e4af6ba": {
@@ -1766,7 +1784,7 @@
                         },
                         {
                             "_key": "style",
-                            "_value": "",
+                            "_value": "position: absolute;     bottom: 5%;     right: 5%;",
                             "_type": "kv",
                             "_attrDef": "p"
                         },
@@ -1817,6 +1835,18 @@
                             "_value": "false",
                             "_type": "kv",
                             "_attrDef": "p"
+                        },
+                        {
+                            "_key": "ngClass.xs",
+                            "_value": "countdownsm",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "ngClass.gt-xs",
+                            "_value": "countmd",
+                            "_type": "kv",
+                            "_attrDef": "c"
                         }
                     ],
                     "d8e87b18-6edc-fc41-8011-7a15c465e99e": {

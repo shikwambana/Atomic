@@ -193,7 +193,7 @@
                 },
                 {
                     "_key": "fxFlex",
-                    "_value": "100",
+                    "_value": "",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -253,13 +253,13 @@
                     },
                     {
                         "_key": "class",
-                        "_value": "slideshow",
+                        "_value": "",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
                     {
                         "_key": "fxFlex",
-                        "_value": "100",
+                        "_value": "",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -325,7 +325,7 @@
                         },
                         {
                             "_key": "style",
-                            "_value": "",
+                            "_value": "min-width: 170px;",
                             "_type": "kv",
                             "_attrDef": "p"
                         },
@@ -385,7 +385,7 @@
                         },
                         {
                             "_key": "fxFlex.xs",
-                            "_value": "52",
+                            "_value": "60",
                             "_type": "kv",
                             "_attrDef": "c"
                         },
@@ -397,7 +397,13 @@
                         },
                         {
                             "_key": "fxFlex.sm",
-                            "_value": "55",
+                            "_value": "60",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "ngClass.sm",
+                            "_value": "cardcriteriasm",
                             "_type": "kv",
                             "_attrDef": "c"
                         }

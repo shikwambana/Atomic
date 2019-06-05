@@ -11,7 +11,7 @@
             },
             {
                 "_key": "style",
-                "_value": "",
+                "_value": "    overflow-y: scroll;",
                 "_type": "kv",
                 "_attrDef": "p"
             },
@@ -62,6 +62,12 @@
                 "_value": "false",
                 "_type": "kv",
                 "_attrDef": "p"
+            },
+            {
+                "_key": "fxFill",
+                "_value": "fxFill",
+                "_type": "a",
+                "_attrDef": "c"
             }
         ],
         "282150d4-e0f7-ef91-a77e-5fe86d457a6a": {
@@ -714,13 +720,13 @@
                     }
                 }
             },
-            "e4a63d9c-8630-c965-65ad-707722f9205a": {
-                "paletteKey": "FlexLayoutCol",
+            "cfc211ec-d196-e06a-f1a4-b6686b1f6651": {
+                "paletteKey": "NG-RouterOutlet",
                 "parentEditorKey": "282150d4-e0f7-ef91-a77e-5fe86d457a6a",
                 "designerReference": [
                     {
                         "_key": "componentLabel",
-                        "_value": "Column",
+                        "_value": "Router Outlet",
                         "_type": "kv",
                         "_attrDef": "p",
                         "_useAsLabel": true
@@ -738,97 +744,24 @@
                         "_attrDef": "p"
                     },
                     {
-                        "_key": "fxFlex",
+                        "_key": "(activate)",
                         "_value": "",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
                     {
-                        "_key": "fxLayoutGap",
+                        "_key": "(deactivate)",
                         "_value": "",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
                     {
-                        "_key": "wrap",
-                        "_value": "wrap",
-                        "_type": "a",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "layoutAlign",
-                        "_value": "start",
-                        "_type": "a",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "pLayoutAlign",
-                        "_value": "stretch",
-                        "_type": "a",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "fxShow",
-                        "_value": "true",
+                        "_key": "isActivated",
+                        "_value": "",
                         "_type": "kv",
                         "_attrDef": "p"
-                    },
-                    {
-                        "_key": "fxHide",
-                        "_value": "false",
-                        "_type": "kv",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "fxFill",
-                        "_value": "fxFill",
-                        "_type": "a",
-                        "_attrDef": "c"
                     }
-                ],
-                "cfc211ec-d196-e06a-f1a4-b6686b1f6651": {
-                    "paletteKey": "NG-RouterOutlet",
-                    "parentEditorKey": "e4a63d9c-8630-c965-65ad-707722f9205a",
-                    "designerReference": [
-                        {
-                            "_key": "componentLabel",
-                            "_value": "Router Outlet",
-                            "_type": "kv",
-                            "_attrDef": "p",
-                            "_useAsLabel": true
-                        },
-                        {
-                            "_key": "style",
-                            "_value": "",
-                            "_type": "kv",
-                            "_attrDef": "p"
-                        },
-                        {
-                            "_key": "class",
-                            "_value": "",
-                            "_type": "kv",
-                            "_attrDef": "p"
-                        },
-                        {
-                            "_key": "(activate)",
-                            "_value": "",
-                            "_type": "kv",
-                            "_attrDef": "p"
-                        },
-                        {
-                            "_key": "(deactivate)",
-                            "_value": "",
-                            "_type": "kv",
-                            "_attrDef": "p"
-                        },
-                        {
-                            "_key": "isActivated",
-                            "_value": "",
-                            "_type": "kv",
-                            "_attrDef": "p"
-                        }
-                    ]
-                }
+                ]
             }
         }
     }

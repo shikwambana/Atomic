@@ -23,7 +23,7 @@
             },
             {
                 "_key": "fxFlex",
-                "_value": "",
+                "_value": "70",
                 "_type": "kv",
                 "_attrDef": "p"
             },
@@ -72,6 +72,12 @@
             {
                 "_key": "ngClass.xs",
                 "_value": "registerContainerxs",
+                "_type": "kv",
+                "_attrDef": "c"
+            },
+            {
+                "_key": "fxFlex.xs",
+                "_value": "95",
                 "_type": "kv",
                 "_attrDef": "c"
             }
@@ -277,7 +283,7 @@
                     },
                     {
                         "_key": "fxFlex",
-                        "_value": "100",
+                        "_value": "",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
