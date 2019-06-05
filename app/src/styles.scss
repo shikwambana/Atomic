@@ -376,6 +376,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 30px 80px;
     border-radius: 5px;
     margin: auto;
+        margin-bottom: 30px;
 }
 
 // .registerContainersm {
@@ -423,7 +424,7 @@ h1, h2, h3, h4, h5, h6, p {
 //================================
 // after CJ review
 
-.countmd {
+.countgt-xs {
     // position: relative !important;
     // bottom: 1% !important;
     // right: 0% !important;
@@ -431,6 +432,12 @@ h1, h2, h3, h4, h5, h6, p {
         font-size: .6em;
 }
 
+.countsm {
+    position: relative !important;
+        padding: 30px;
+            margin: 0 auto;
+    right: 0px !important;
+}
 
 .prizemd {
         position: relative !important;
@@ -440,7 +447,8 @@ h1, h2, h3, h4, h5, h6, p {
     position: relative !important;
     bottom: 0 !important;
     left: 0 !important;
-        padding: 20px 35px;
+        margin: 0 auto;
+    padding-bottom: 12px;
 }
 
 .countdownsm {
@@ -448,4 +456,16 @@ h1, h2, h3, h4, h5, h6, p {
         bottom: 0% !important;
     right: 0% !important;
     margin: 0 auto;
+}
+
+.countmd {
+    //  position: relative !important;
+    //  padding-left: 50px;
+        font-size: .6em;
+}
+
+.outer::-webkit-scrollbar { width: 0 !important }
+
+.registermd {
+    margin-bottom: 25px;
 }

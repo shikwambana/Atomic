@@ -80,6 +80,12 @@
                 "_value": "95",
                 "_type": "kv",
                 "_attrDef": "c"
+            },
+            {
+                "_key": "ngClass.lt-md",
+                "_value": "registermd",
+                "_type": "kv",
+                "_attrDef": "c"
             }
         ],
         "5396c71d-0358-7d26-155a-d5aeeab93dfb": {
@@ -254,6 +260,12 @@
                 {
                     "_key": "ngClass.xs",
                     "_value": "formContainerxs",
+                    "_type": "kv",
+                    "_attrDef": "c"
+                },
+                {
+                    "_key": "ngClass.lt-md",
+                    "_value": "registermd",
                     "_type": "kv",
                     "_attrDef": "c"
                 }

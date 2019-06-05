@@ -1843,8 +1843,20 @@
                             "_attrDef": "c"
                         },
                         {
-                            "_key": "ngClass.gt-xs",
+                            "_key": "ngClass.md",
                             "_value": "countmd",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "ngClass.sm",
+                            "_value": "countsm",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "ngClass.lt-sm",
+                            "_value": "countgt-xs",
                             "_type": "kv",
                             "_attrDef": "c"
                         }
