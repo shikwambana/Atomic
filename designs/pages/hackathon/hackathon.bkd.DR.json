@@ -65,7 +65,7 @@
             },
             {
                 "_key": "fxFill",
-                "_value": "fxFill",
+                "_value": "",
                 "_type": "a",
                 "_attrDef": "c"
             }
@@ -95,7 +95,7 @@
                 },
                 {
                     "_key": "fxFlex",
-                    "_value": "100",
+                    "_value": "",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -1228,7 +1228,7 @@
                         },
                         {
                             "_key": "fxFlex",
-                            "_value": "100",
+                            "_value": "",
                             "_type": "kv",
                             "_attrDef": "p"
                         },
@@ -1856,7 +1856,7 @@
                         },
                         {
                             "_key": "ngClass.lt-sm",
-                            "_value": "countgt-xs",
+                            "_value": "countlt-sm",
                             "_type": "kv",
                             "_attrDef": "c"
                         }

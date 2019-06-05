@@ -70,7 +70,7 @@
             "designerReference": [
                 {
                     "_key": "componentLabel",
-                    "_value": "Heading",
+                    "_value": "",
                     "_type": "kv",
                     "_attrDef": "p",
                     "_useAsLabel": true
@@ -378,14 +378,8 @@
                             "_attrDef": "p"
                         },
                         {
-                            "_key": "*ngFor",
-                            "_value": "let item of info",
-                            "_type": "kv",
-                            "_attrDef": "c"
-                        },
-                        {
                             "_key": "fxFlex.xs",
-                            "_value": "60",
+                            "_value": "70",
                             "_type": "kv",
                             "_attrDef": "c"
                         },
@@ -404,6 +398,24 @@
                         {
                             "_key": "ngClass.sm",
                             "_value": "cardcriteriasm",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "*ngFor",
+                            "_value": "let item of info; let i = index;",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "#card",
+                            "_value": "#card",
+                            "_type": "a",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "tabindex",
+                            "_value": "1",
                             "_type": "kv",
                             "_attrDef": "c"
                         }
@@ -836,6 +848,116 @@
                             ]
                         }
                     }
+                }
+            },
+            "471bc61d-bf30-d426-f5ac-1b1b2a0f0408": {
+                "paletteKey": "FlexLayoutCol",
+                "parentEditorKey": "f0e018c4-3efc-f6f6-7456-f44ec9479805",
+                "designerReference": [
+                    {
+                        "_key": "componentLabel",
+                        "_value": "Column",
+                        "_type": "kv",
+                        "_attrDef": "p",
+                        "_useAsLabel": true
+                    },
+                    {
+                        "_key": "style",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "class",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxFlex",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxLayoutGap",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "wrap",
+                        "_value": "wrap",
+                        "_type": "a",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "layoutAlign",
+                        "_value": "start",
+                        "_type": "a",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "pLayoutAlign",
+                        "_value": "end",
+                        "_type": "a",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxShow",
+                        "_value": "true",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxHide",
+                        "_value": "false",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    }
+                ],
+                "47335759-a7fb-1bd1-3478-bd0a75e62a15": {
+                    "paletteKey": "NG-icon",
+                    "parentEditorKey": "471bc61d-bf30-d426-f5ac-1b1b2a0f0408",
+                    "designerReference": [
+                        {
+                            "_key": "style",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "class",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "IconName",
+                            "_value": "arrow_forward",
+                            "_type": "a",
+                            "_attrDef": "p",
+                            "_useAsLabel": true
+                        },
+                        {
+                            "_key": "[inline]",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "color",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "(click)",
+                            "_value": "scroll()",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        }
+                    ]
                 }
             }
         }

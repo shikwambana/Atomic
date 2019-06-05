@@ -95,7 +95,7 @@
                 },
                 {
                     "_key": "fxFlex",
-                    "_value": "100",
+                    "_value": "",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -212,6 +212,12 @@
                         "_value": "false",
                         "_type": "kv",
                         "_attrDef": "p"
+                    },
+                    {
+                        "_key": "ngClass.lt-md",
+                        "_value": "headlt-md",
+                        "_type": "kv",
+                        "_attrDef": "c"
                     }
                 ],
                 "1285a2bf-7505-8d00-29b2-dabe9d261c17": {
@@ -517,6 +523,12 @@
                             },
                             {
                                 "_key": "ngClass.xs",
+                                "_value": "menuxs",
+                                "_type": "kv",
+                                "_attrDef": "c"
+                            },
+                            {
+                                "_key": "ngClass.lt-md",
                                 "_value": "menuxs",
                                 "_type": "kv",
                                 "_attrDef": "c"

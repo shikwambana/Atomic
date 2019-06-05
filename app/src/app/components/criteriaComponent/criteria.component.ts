@@ -1,5 +1,5 @@
 /*DEFAULT GENERATED TEMPLATE. DO NOT CHANGE SELECTOR TEMPLATE_URL AND CLASS NAME*/
-import { Component, OnInit } from '@angular/core'
+import { Component, OnInit, ViewChildren, QueryList, ElementRef, AfterViewInit  } from '@angular/core'
 import { ModelMethods } from '../../lib/model.methods';
 // import { BDataModelService } from '../service/bDataModel.service';
 import { NDataModelService } from 'neutrinos-seed-services';
@@ -17,6 +17,8 @@ import { NBaseComponent } from '../../../../../app/baseClasses/nBase.component';
 
 export class criteriaComponent extends NBaseComponent implements OnInit {
     mm: ModelMethods;
+
+    @ViewChildren("card") card: QueryList<ElementRef>;
 
     constructor(private bdms: NDataModelService) {
         super();
@@ -58,6 +60,15 @@ export class criteriaComponent extends NBaseComponent implements OnInit {
     ngOnInit() {
 
     }
+
+    scroll(){
+        this.card.last.nativeElement.focus();
+    }
+    
+    // scroll(i : HTMLElement){
+    //     console.log(i);
+    //     i.scrollIntoView();
+    // }
 
     get(dataModelName, filter?, keys?, sort?, pagenumber?, pagesize?) {
         this.mm.get(dataModelName, filter, keys, sort, pagenumber, pagesize,
