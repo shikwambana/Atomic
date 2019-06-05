@@ -1,48 +1,50 @@
-<div fxLayout="column wrap" class="registerContainer" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.sm="registerContainersm" ngClass.xs="registerContainerxs" fxFlex.xs="95" ngClass.lt-md="registermd">
-  <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngStyle.sm="text-align: center;">
-    <h3>REGISTER</h3>
-  </div>
-  <div fxLayout="column wrap" class="formContainer" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.xs="formContainerxs" ngClass.lt-md="registermd">
-    <div fxLayout="row wrap" fxLayoutAlign="space-between start" fxShow="true" fxHide="false">
-      <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="space-around stretch" fxShow="true" fxHide="false" fxFlex.xs="90" fxFlex.sm="90" fxFlex.md="90">
-        <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Full Name</label>
-          <mat-form-field class="inputInfo">
-            <input matInput [(ngModel)]="details.fullName" name="fullName" required>
+<div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+  <div fxLayout="column wrap" class="registerContainer" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.sm="registerContainersm" ngClass.xs="registerContainerxs" fxFlex.xs="95" ngClass.lt-md="registermd">
+    <div fxLayout="column wrap" style="padding: 10px 0;" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngStyle.sm="text-align: center;">
+      <h3>REGISTER</h3>
+    </div>
+    <div fxLayout="column wrap" class="formContainer" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.xs="formContainerxs" ngClass.lt-md="registermd">
+      <div fxLayout="row wrap" fxLayoutAlign="space-between start" fxShow="true" fxHide="false">
+        <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="space-around stretch" fxShow="true" fxHide="false" fxFlex.xs="100" fxFlex.sm="100" fxFlex.md="100">
+          <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Full Name</label>
+            <mat-form-field class="inputInfo">
+              <input matInput [(ngModel)]="details.fullName" name="fullName" required>
 
-          </mat-form-field>
-        </div>
-        <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Email Address</label>
-          <mat-form-field class="inputInfo">
-            <input matInput [(ngModel)]="details.email" required>
+            </mat-form-field>
+          </div>
+          <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Email Address</label>
+            <mat-form-field class="inputInfo">
+              <input matInput [(ngModel)]="details.email" required>
 
-          </mat-form-field>
+            </mat-form-field>
+          </div>
+          <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>What is your Idea?</label>
+            <mat-form-field class="inputInfo">
+              <textarea matInput [(ngModel)]="details.idea" required></textarea>
+            </mat-form-field>
+          </div>
+          <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>What challenge/problem does it solve</label>
+            <mat-form-field class="inputInfo">
+              <textarea matInput [(ngModel)]="details.problem" required></textarea>
+            </mat-form-field>
+          </div>
         </div>
-        <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>What is your Idea?</label>
-          <mat-form-field class="inputInfo">
-            <textarea matInput [(ngModel)]="details.idea" required></textarea>
-          </mat-form-field>
-        </div>
-        <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>What challenge/problem does it solve</label>
-          <mat-form-field class="inputInfo">
-            <textarea matInput [(ngModel)]="details.problem" required></textarea>
-          </mat-form-field>
-        </div>
-      </div>
-      <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFlex.sm="90" fxFlex.xs="90" fxFlex.md="90">
-        <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Why do you want to take part in the AI Hackathon</label>
-          <mat-form-field>
-            <textarea matInput [(ngModel)]="details.reason" required></textarea>
-          </mat-form-field>
-        </div>
-        <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>I will attend the hackathon as a:</label>
-          <mat-form-field>
-            <mat-select [(ngModel)]="details.attendance" required>
-              <mat-option></mat-option>
-            </mat-select>
+        <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFlex.sm="100" fxFlex.xs="100" fxFlex.md="100">
+          <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Why do you want to take part in the AI Hackathon</label>
+            <mat-form-field>
+              <textarea matInput [(ngModel)]="details.reason" required></textarea>
+            </mat-form-field>
+          </div>
+          <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>I will attend the hackathon as a:</label>
+            <mat-form-field>
+              <mat-select [(ngModel)]="details.attendance" required>
+                <mat-option></mat-option>
+              </mat-select>
 
-          </mat-form-field>
+            </mat-form-field>
+          </div>
+          <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><button mat-button (click)="submit()">Submit</button></div>
         </div>
-        <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><button mat-button (click)="submit()">Submit</button></div>
       </div>
     </div>
   </div>

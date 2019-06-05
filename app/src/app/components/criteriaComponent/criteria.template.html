@@ -22,8 +22,14 @@
         </div>
       </div>
     </div>
-    <div fxLayout="column wrap" fxLayoutAlign="start end" fxShow="true" fxHide="false">
-      <mat-icon (click)="scroll()">arrow_forward</mat-icon>
+    <div fxLayout="column wrap" fxLayoutAlign="start end" fxShow="true" fxHide="false" fxHide.gt-sm="true">
+      <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.xs="arrowxs">
+        <mat-icon style="cursor: pointer;" class="pulse arrow " (click)="slideback()" *ngIf="back">arrow_back</mat-icon>
+        <mat-icon style="cursor: pointer;" class="pulse arrow" (click)="slide()" *ngIf="forward">arrow_forward</mat-icon>
+      </div>
+    </div>
+    <div fxLayout="column wrap" fxLayoutAlign="start end" fxShow="true" fxHide="true" fxHide.gt-sm="true">
+      <mat-icon style="cursor: pointer;" class="pulse" (click)="scroll()">arrow_forward</mat-icon>
     </div>
   </div>
 </div>

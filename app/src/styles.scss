@@ -25,6 +25,7 @@ body {
 .container {
     padding: 0px 80px;
     display: block !important;
+        width: 100%;
 }
 .containerMobile {
         padding: 0px 15px;
@@ -90,9 +91,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .prizexs {
-    height: 150px;
-    width: 150px;
-    font-size: 0.9em;
+    height: 120px;
+    width: 120px;
+    font-size: 0.75em;
 }
 
 .redCircle {
@@ -390,7 +391,6 @@ h1, h2, h3, h4, h5, h6, p {
     border: 2px white solid;
     padding: 5px;
     border-radius: 5px;
-    margin-right: 15px;
     height: 35px;
     // width: 49em;
 }
@@ -432,6 +432,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .prizemd {
         position: relative !important;
+            left: 30% !important;
 }
 
 .prizesm {
@@ -461,6 +462,34 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 25px;
 }
 
-.headlt-md {
-    padding: 0 !important
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+   animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+.arrow {
+    background-color: red;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.arrowxs {
+        position: absolute;
+    bottom: 8%;
 }

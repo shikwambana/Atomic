@@ -850,7 +850,7 @@
                     }
                 }
             },
-            "471bc61d-bf30-d426-f5ac-1b1b2a0f0408": {
+            "92c9080e-4414-bdbd-6e5d-527189c1be63": {
                 "paletteKey": "FlexLayoutCol",
                 "parentEditorKey": "f0e018c4-3efc-f6f6-7456-f44ec9479805",
                 "designerReference": [
@@ -914,12 +914,25 @@
                         "_value": "false",
                         "_type": "kv",
                         "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxHide.gt-sm",
+                        "_value": "true",
+                        "_type": "kv",
+                        "_attrDef": "c"
                     }
                 ],
-                "47335759-a7fb-1bd1-3478-bd0a75e62a15": {
-                    "paletteKey": "NG-icon",
-                    "parentEditorKey": "471bc61d-bf30-d426-f5ac-1b1b2a0f0408",
+                "bb16a29b-5016-d222-a28c-ca756778cefe": {
+                    "paletteKey": "FlexLayoutRow",
+                    "parentEditorKey": "92c9080e-4414-bdbd-6e5d-527189c1be63",
                     "designerReference": [
+                        {
+                            "_key": "componentLabel",
+                            "_value": "Row",
+                            "_type": "kv",
+                            "_attrDef": "p",
+                            "_useAsLabel": true
+                        },
                         {
                             "_key": "style",
                             "_value": "",
@@ -929,6 +942,243 @@
                         {
                             "_key": "class",
                             "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxFlex",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxLayoutGap",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "wrap",
+                            "_value": "wrap",
+                            "_type": "a",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "layoutAlign",
+                            "_value": "start",
+                            "_type": "a",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "pLayoutAlign",
+                            "_value": "stretch",
+                            "_type": "a",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxShow",
+                            "_value": "true",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxHide",
+                            "_value": "false",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "ngClass.xs",
+                            "_value": "arrowxs",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        }
+                    ],
+                    "1239a428-c32e-44fe-3f43-deb9900747d9": {
+                        "paletteKey": "NG-icon",
+                        "parentEditorKey": "bb16a29b-5016-d222-a28c-ca756778cefe",
+                        "designerReference": [
+                            {
+                                "_key": "style",
+                                "_value": "cursor: pointer;",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "class",
+                                "_value": "pulse arrow ",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "IconName",
+                                "_value": "arrow_back",
+                                "_type": "a",
+                                "_attrDef": "p",
+                                "_useAsLabel": true
+                            },
+                            {
+                                "_key": "[inline]",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "color",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "(click)",
+                                "_value": "slideback()",
+                                "_type": "kv",
+                                "_attrDef": "c"
+                            },
+                            {
+                                "_key": "*ngIf",
+                                "_value": "back",
+                                "_type": "kv",
+                                "_attrDef": "c"
+                            }
+                        ]
+                    },
+                    "464cf046-7572-ffa5-0512-d6fb7adf6fd8": {
+                        "paletteKey": "NG-icon",
+                        "parentEditorKey": "bb16a29b-5016-d222-a28c-ca756778cefe",
+                        "designerReference": [
+                            {
+                                "_key": "style",
+                                "_value": "cursor: pointer;",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "class",
+                                "_value": "pulse arrow",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "IconName",
+                                "_value": "arrow_forward",
+                                "_type": "a",
+                                "_attrDef": "p",
+                                "_useAsLabel": true
+                            },
+                            {
+                                "_key": "[inline]",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "color",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "(click)",
+                                "_value": "slide()",
+                                "_type": "kv",
+                                "_attrDef": "c"
+                            },
+                            {
+                                "_key": "*ngIf",
+                                "_value": "forward",
+                                "_type": "kv",
+                                "_attrDef": "c"
+                            }
+                        ]
+                    }
+                }
+            },
+            "471bc61d-bf30-d426-f5ac-1b1b2a0f0408": {
+                "paletteKey": "FlexLayoutCol",
+                "parentEditorKey": "f0e018c4-3efc-f6f6-7456-f44ec9479805",
+                "designerReference": [
+                    {
+                        "_key": "componentLabel",
+                        "_value": "Column",
+                        "_type": "kv",
+                        "_attrDef": "p",
+                        "_useAsLabel": true
+                    },
+                    {
+                        "_key": "style",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "class",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxFlex",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxLayoutGap",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "wrap",
+                        "_value": "wrap",
+                        "_type": "a",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "layoutAlign",
+                        "_value": "start",
+                        "_type": "a",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "pLayoutAlign",
+                        "_value": "end",
+                        "_type": "a",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxShow",
+                        "_value": "true",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxHide",
+                        "_value": "true",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxHide.gt-sm",
+                        "_value": "true",
+                        "_type": "kv",
+                        "_attrDef": "c"
+                    }
+                ],
+                "d9145e9f-4b81-da00-6f46-5047c0340da4": {
+                    "paletteKey": "NG-icon",
+                    "parentEditorKey": "471bc61d-bf30-d426-f5ac-1b1b2a0f0408",
+                    "designerReference": [
+                        {
+                            "_key": "style",
+                            "_value": "cursor: pointer;",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "class",
+                            "_value": "pulse",
                             "_type": "kv",
                             "_attrDef": "p"
                         },

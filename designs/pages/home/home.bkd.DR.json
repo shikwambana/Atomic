@@ -83,7 +83,7 @@
                 },
                 {
                     "_key": "style",
-                    "_value": "",
+                    "_value": "display: block !important;",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -212,12 +212,6 @@
                         "_value": "false",
                         "_type": "kv",
                         "_attrDef": "p"
-                    },
-                    {
-                        "_key": "ngClass.lt-md",
-                        "_value": "headlt-md",
-                        "_type": "kv",
-                        "_attrDef": "c"
                     }
                 ],
                 "1285a2bf-7505-8d00-29b2-dabe9d261c17": {

@@ -56,20 +56,31 @@ export class criteriaComponent extends NBaseComponent implements OnInit {
         
     ]
 
+    forward = true;
+    back = false;
+
 
     ngOnInit() {
 
+    }
+
+    slide() {    
+        this.card.toArray()[2].nativeElement.scrollIntoView({behavior: 'smooth'});
+        this.forward = false;
+        this.back = true;
+    }
+
+    slideback() {
+        this.card.toArray()[0].nativeElement.scrollIntoView({behavior: 'smooth'});
+        this.forward = true;
+        this.back = false;
     }
 
     scroll(){
         this.card.last.nativeElement.focus();
     }
     
-    // scroll(i : HTMLElement){
-    //     console.log(i);
-    //     i.scrollIntoView();
-    // }
-
+   
     get(dataModelName, filter?, keys?, sort?, pagenumber?, pagesize?) {
         this.mm.get(dataModelName, filter, keys, sort, pagenumber, pagesize,
             result => {
