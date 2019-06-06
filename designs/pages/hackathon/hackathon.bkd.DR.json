@@ -1476,12 +1476,6 @@
                         "_value": "prizesm ",
                         "_type": "kv",
                         "_attrDef": "c"
-                    },
-                    {
-                        "_key": "ngStyle.xs",
-                        "_value": "margin: 0 auto;",
-                        "_type": "kv",
-                        "_attrDef": "c"
                     }
                 ],
                 "9dfdc1ba-9007-5325-1565-3b622d28fd8d": {

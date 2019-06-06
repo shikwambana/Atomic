@@ -2,7 +2,6 @@
 
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 @import "nDefaults.scss";
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 @font-face {
     font-family: Rockwell;
@@ -17,19 +16,16 @@ body {
     background-image: linear-gradient(to bottom, #ec1c24, #202021), url(/assets/Web/background.png);
     background-blend-mode: color;
     color: white;
-
-    // background-size: auto;
     background-repeat: no-repeat;
 }
 
 .container {
     padding: 0px 80px;
     display: block !important;
-        width: 100%;
+    width: 100%;
 }
 .containerMobile {
-        padding: 0px 15px;
-        // overflow-y: scroll;
+    padding: 0px 15px;
 }
 
 //=================================================================================
@@ -38,7 +34,7 @@ body {
 .logo img {
     width: 15em;;
 }
-//.info h2, .info h4, .eventName h1, .eventName h3 
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
@@ -72,7 +68,6 @@ h1, h2, h3, h4, h5, h6, p {
     height: 200px;
     width: 200px;
     font-size: 1.6em;
-    // margin-top: 65px;
 }
 
 .prizexs {
@@ -82,45 +77,29 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .redCircle {
-    height: 50px;
+  height: 50px;
   width: 50px;
   background-color: rgba(255, 0, 0, 0.5098039215686274);
   border-radius: 50%;
 }
 
 .redcirclexs {
-    
     margin-bottom: -150px;
-
 }
 
 .rightside img {
-    // border: white 2px solid;
     padding: 20px 0px;
     border-left: none;
-    // margin-left: 80px;
-    // opacity: 0.4;
     height: auto;
-        width: 90%;
+    width: 90%;
 }
 
 .eventName {
     position: absolute;
-    // margin: 9em 0;
 }
 
 .eventNameRed {
     color: red;
-}
-
-
-
-
-.horLine {
-    color: black;
-    width: 130em;
-    font-size: 2px;
-    margin: 0;
 }
 
 .login-card .mat-card-image:first-child {
@@ -150,9 +129,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 // Tk
 .mainContainer {
-        // height: 100vh;
-    // overflow: scroll;
-    // overflow-x: hidden;
     display: block;
 }
 
@@ -203,7 +179,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .countDownContainer {
    margin: auto !important;
-       padding: 5px !important;
+   padding: 5px !important;
 }
 
 .textTablet {
@@ -211,12 +187,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .textTablet p {
-        font-size: 1em;
-        padding-top: 15px;
+    font-size: 1em;
+    padding-top: 15px;
     }
 
 .textTablet h2{
-            font-size: 2em;
+    font-size: 2em;
     }
 
 //===========================================================================
@@ -230,11 +206,6 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0 !important;
     margin-top: 0px !important;
     margin-left: -10%;
-    // margin-left: -50px !important;
-}
-
-.mobilePicture img {
-        // width: 140px;
 }
 
 .mobilePicture h1 {
@@ -252,7 +223,6 @@ h1, h2, h3, h4, h5, h6, p {
 .contentTabletxs {
     margin: 0 !important;
     padding: 36px 0 0;
-    // width: 80%;
 }
 
 .contentTabletxs p {
@@ -273,7 +243,7 @@ h1, h2, h3, h4, h5, h6, p {
     bottom: 5px;
 }
 
-.countDownContainerxs .measurements {
+.countdownsm .measurements {
         padding: 10px;
 }
 
@@ -295,16 +265,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .cardCriteriaxs {
-    // width: 24.5%;
-    // background-color: #eee;
     float: none;
-    // height: 90%;
-    // margin: 0 0.25%;
     display: inline-block;
     zoom: 1;
 }
 .cardCriteria {
-       margin: 35px 12px;;
+    margin: 35px 12px;;
     border: 2px white solid;
     padding: 16px;
 }
@@ -316,7 +282,6 @@ h1, h2, h3, h4, h5, h6, p {
 .cardCriteria h1 {
     font-size: 3em;
     opacity: 0.8;
-
 }
 
 .cardcriteriasm h1 {
@@ -345,21 +310,14 @@ h1, h2, h3, h4, h5, h6, p {
 //=================================================================================
 
 .registerContainer {
-    // margin: 5% 15%;
     box-shadow: 0px 0px 0px 1px rgb(255, 255, 255);
     padding: 30px 80px;
     border-radius: 5px;
     margin: auto;
-        margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
-// .registerContainersm {
-//     // margin: 5% 5%;
-//     padding: 30px 40px;
-// }
-
 .registerContainerxs {
-    // margin: 5%;
     padding: 30px 35px;
 }
 .formbox {
@@ -374,7 +332,6 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 5px;
     border-radius: 5px;
     height: 35px;
-    // width: 49em;
 }
 
 .formContainer .mat-select {
@@ -405,40 +362,35 @@ h1, h2, h3, h4, h5, h6, p {
     bottom: 5% !important;
     right: 0% !important;
     margin: 0 auto !important;
-        font-size: .6em;
+    font-size: .6em;
 }
 
 .countsm {
     position: relative !important;
-        padding: 30px;
-            margin: 0 auto;
+    padding: 30px;
+    margin: 0 auto;
     right: 0px !important;
 }
 
 .prizemd {
-        position: relative !important;
-            left: 30% !important;
+    position: relative !important;
+    left: 30% !important;
 }
 
 .prizesm {
-    position: relative !important;
-    bottom: 0 !important;
-    left: 0 !important;
-        margin: 0 auto;
     padding-bottom: 12px;
 }
 
-.countdownsm {
+.countdownsm, .prizesm {
     position: relative !important;
-        bottom: 0% !important;
+    bottom: 0% !important;
     right: 0% !important;
-    margin: 0 auto;
+    margin: 0 auto !important;
+    left: 0% !important;
 }
 
 .countmd {
-    //  position: relative !important;
-    //  padding-left: 50px;
-        font-size: .6em;
+    font-size: .6em;
 }
 
 .outer::-webkit-scrollbar { width: 0 !important }
@@ -469,12 +421,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .arrow {
-    background-color: red;
+    background-color: #ec1c24;
     border-radius: 50%;
     padding: 10px;
 }
 
 .arrowxs {
-        position: absolute;
+    position: absolute;
     bottom: 8%;
 }
