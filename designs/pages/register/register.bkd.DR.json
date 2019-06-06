@@ -1564,7 +1564,7 @@
                                     },
                                     {
                                         "_key": "placeholder",
-                                        "_value": "",
+                                        "_value": "Individual",
                                         "_type": "kv",
                                         "_attrDef": "p",
                                         "_useAsLabel": true
@@ -1601,19 +1601,19 @@
                                     },
                                     {
                                         "_key": "*ngFor",
-                                        "_value": "",
+                                        "_value": "let item of attend",
                                         "_type": "kv",
                                         "_attrDef": "p"
                                     },
                                     {
                                         "_key": "[value]",
-                                        "_value": "",
+                                        "_value": "item",
                                         "_type": "kv",
                                         "_attrDef": "p"
                                     },
                                     {
                                         "_key": "optiondata",
-                                        "_value": "",
+                                        "_value": "{{item}}",
                                         "_type": "a",
                                         "_attrDef": "p"
                                     },

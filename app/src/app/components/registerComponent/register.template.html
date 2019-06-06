@@ -37,8 +37,8 @@
           </div>
           <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>I will attend the hackathon as a:</label>
             <mat-form-field>
-              <mat-select [(ngModel)]="details.attendance" required>
-                <mat-option></mat-option>
+              <mat-select placeholder="Individual" [(ngModel)]="details.attendance" required>
+                <mat-option *ngFor="let item of attend" [value]="item">{{item}}</mat-option>
               </mat-select>
 
             </mat-form-field>

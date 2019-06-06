@@ -43,10 +43,6 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
-.date {
-        // margin: 25px 0;
-}
-
 .date h2, .eventName h1 {
     font-size: 2.5em;
 }
@@ -61,23 +57,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 .text p, .eventName h3 {
     font-size: 1.2em;
-    // padding-top: 10px;
 }
 
-.text button {
+.text button, .readmore button {
     width: 100px;
     border: 1px solid white;
     margin: 20px 0;
-}
-
-.readmore button {
-    width: 100px;
-    border: 1px solid white;
-    margin: 20px 0;
-}
-
-.rightside {
-        // padding: 20px 35px;
 }
 
 .prize {
@@ -101,9 +86,6 @@ h1, h2, h3, h4, h5, h6, p {
   width: 50px;
   background-color: rgba(255, 0, 0, 0.5098039215686274);
   border-radius: 50%;
-//   margin-bottom: -200px;
-//     margin-right: -35px;
-
 }
 
 .redcirclexs {
@@ -395,8 +377,11 @@ h1, h2, h3, h4, h5, h6, p {
     // width: 49em;
 }
 
-.formContainer button {
-    // width: 57em;
+.formContainer .mat-select {
+    height: 22px !important;
+}
+.mat-select-value {
+    color: white;
 }
 
 .formContainer .mat-form-field-underline {

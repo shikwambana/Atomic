@@ -5,6 +5,7 @@ import { ModelMethods } from '../../lib/model.methods';
 import { NDataModelService } from 'neutrinos-seed-services';
 import { NBaseComponent } from '../../../../../app/baseClasses/nBase.component';
 import { details } from '../../models/details.model'
+import { registerService } from '../../services/register/register.service'
 /**
  * Service import Example :
  * import { HeroService } from '../../services/hero/hero.service';
@@ -19,20 +20,20 @@ export class registerComponent extends NBaseComponent implements OnInit {
     mm: ModelMethods;
 
     details : details;
+    attend = ['Individual','Group']
 
-    constructor(private bdms: NDataModelService) {
+    constructor(private bdms: NDataModelService, private regService : registerService) {
         super();
         this.mm = new ModelMethods(bdms);
         this.details = new details();
     }
 
     ngOnInit() {
-        console.log(this.details)
-
+        this.details.attendance = "Individual"
     }
 
     submit(){
-        console.log(this.details)
+        this.regService.register(this.details);
     }
 
     get(dataModelName, filter?, keys?, sort?, pagenumber?, pagesize?) {

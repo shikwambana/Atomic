@@ -12,6 +12,8 @@ window['neutrinos'] = {
 }
 
 //CORE_REFERENCE_IMPORTS
+//CORE_REFERENCE_IMPORT-registerService
+import { registerService } from '../services/register/register.service';
 //CORE_REFERENCE_IMPORT-hackathonComponent
 import { hackathonComponent } from '../components/hackathonComponent/hackathon.component';
 //CORE_REFERENCE_IMPORT-registerComponent
@@ -93,6 +95,8 @@ export const appProviders = [
   },
   NAuthGuardService,
   //CORE_REFERENCE_PUSH_TO_PRO_ARRAY
+//CORE_REFERENCE_PUSH_TO_PRO_ARRAY-registerService
+registerService,
 
 ];
 
