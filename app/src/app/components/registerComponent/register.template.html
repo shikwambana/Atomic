@@ -3,49 +3,51 @@
     <div fxLayout="column wrap" style="padding: 10px 0;" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngStyle.sm="text-align: center;">
       <h3>REGISTER</h3>
     </div>
-    <div fxLayout="column wrap" class="formContainer" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.xs="formContainerxs" ngClass.lt-md="registermd">
-      <div fxLayout="row wrap" fxLayoutAlign="space-between start" fxShow="true" fxHide="false">
-        <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="space-around stretch" fxShow="true" fxHide="false" fxFlex.xs="100" fxFlex.sm="100" fxFlex.md="100">
-          <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Full Name</label>
-            <mat-form-field class="inputInfo">
-              <input matInput [(ngModel)]="details.fullName" name="fullName" required>
-
-            </mat-form-field>
+    <form [formGroup]="info">
+      <div fxLayout="column wrap" class="formContainer" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.xs="formContainerxs" ngClass.lt-md="registermd">
+        <div fxLayout="row wrap" fxLayoutAlign="space-between start" fxShow="true" fxHide="false">
+          <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="space-around stretch" fxShow="true" fxHide="false" fxFlex.xs="100" fxFlex.sm="100" fxFlex.md="100">
+            <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Full Name</label>
+              <mat-form-field class="inputInfo">
+                <input matInput name="fullName" required formControlName="fullName" id="info">
+                <mat-error *ngIf="data.fullName.errors?.required || data.fullNames?.errors">Name is Required</mat-error>
+              </mat-form-field>
+            </div>
+            <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Email Address</label>
+              <mat-form-field class="inputInfo">
+                <input matInput type="email" required formControlName="email">
+                <mat-error *ngIf="data.email.errors?.pattern || data.email.errors?.required">Enter a valid Email</mat-error>
+              </mat-form-field>
+            </div>
+            <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>What is your Idea?</label>
+              <mat-form-field class="inputInfo">
+                <textarea matInput formControlName="idea" required></textarea>
+              </mat-form-field>
+            </div>
+            <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>What challenge/problem does it solve</label>
+              <mat-form-field class="inputInfo">
+                <textarea matInput formControlName="problem" required></textarea>
+              </mat-form-field>
+            </div>
           </div>
-          <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Email Address</label>
-            <mat-form-field class="inputInfo">
-              <input matInput [(ngModel)]="details.email" required>
-
-            </mat-form-field>
+          <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFlex.sm="100" fxFlex.xs="100" fxFlex.md="100">
+            <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Why do you want to take part in the AI Hackathon</label>
+              <mat-form-field>
+                <textarea matInput formControlName="reason" required></textarea>
+              </mat-form-field>
+            </div>
+            <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>I will attend the hackathon as a:</label>
+              <mat-form-field>
+                <mat-select placeholder="Individual" required formControlName="attendance">
+                  <mat-option *ngFor="let item of attend" [value]="item">{{item}}</mat-option>
+                </mat-select>
+                <mat-error *ngIf="!details.attendance">Choose an option</mat-error>
+              </mat-form-field>
+            </div>
+            <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><button mat-button (click)="submit()">Submit</button></div>
           </div>
-          <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>What is your Idea?</label>
-            <mat-form-field class="inputInfo">
-              <textarea matInput [(ngModel)]="details.idea" required></textarea>
-            </mat-form-field>
-          </div>
-          <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>What challenge/problem does it solve</label>
-            <mat-form-field class="inputInfo">
-              <textarea matInput [(ngModel)]="details.problem" required></textarea>
-            </mat-form-field>
-          </div>
-        </div>
-        <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFlex.sm="100" fxFlex.xs="100" fxFlex.md="100">
-          <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Why do you want to take part in the AI Hackathon</label>
-            <mat-form-field>
-              <textarea matInput [(ngModel)]="details.reason" required></textarea>
-            </mat-form-field>
-          </div>
-          <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>I will attend the hackathon as a:</label>
-            <mat-form-field>
-              <mat-select placeholder="Individual" [(ngModel)]="details.attendance" required>
-                <mat-option *ngFor="let item of attend" [value]="item">{{item}}</mat-option>
-              </mat-select>
-
-            </mat-form-field>
-          </div>
-          <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><button mat-button (click)="submit()">Submit</button></div>
         </div>
       </div>
-    </div>
+    </form>
   </div>
 </div>
