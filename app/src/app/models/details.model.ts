@@ -20,4 +20,16 @@ export class details {
   @JsonProperty('attendance', String, true)
   public attendance: string = undefined;
 
+  @JsonProperty('member1', String, true)
+  public member1: string = undefined;
+
+  @JsonProperty('member2', String, true)
+  public member2: string = undefined;
+
+  @JsonProperty('member3', String, true)
+  public member3: string = undefined;
+
+  @JsonProperty('googleDrive', String, true)
+  public googleDrive: string = undefined;
+
 }

@@ -26,7 +26,7 @@
         "dataModelId": "63e18cfb-618f-556e-245e-d045d9263d4d",
         "name": "details",
         "description": "information of register",
-        "dataSource": "neutrinos-delivery-rt",
+        "dataSource": "atomic",
         "fields": [
             {
                 "name": "fullName",
@@ -55,6 +55,26 @@
             },
             {
                 "name": "attendance",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "member1",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "member2",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "member3",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "googleDrive",
                 "fieldType": 2,
                 "isArray": false
             }

@@ -335,7 +335,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .formContainer .mat-select {
-    height: 22px !important;
+    height: 20px !important;
+    padding: 12px 5px !important;
 }
 .mat-select-value {
     color: white;
@@ -352,6 +353,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .formContainer button {
     background-color: red;
+    margin: 15px 0;
 }
 
 //================================
@@ -434,4 +436,8 @@ h1, h2, h3, h4, h5, h6, p {
 .inputInvalid
 {
   border:1px solid red;
+}
+
+.mat-error {
+    color: #fff2b1;
 }

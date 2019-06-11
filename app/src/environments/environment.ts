@@ -4,7 +4,7 @@ export const environment = {
     "properties": {
         "production": false,
         "baseUrl": "http://localhost:3000/bhive-art/",
-        "tenantName": "neutrinos-delivery",
+        "tenantName": "atomic",
         "appName": "Atomic",
         "namespace": "com.neutrinos-delivery.Atomic",
         "isNotificationEnabled": true,
@@ -14,7 +14,7 @@ export const environment = {
         "authDomain": "FIREBASE_AUTH_DOMAIN",
         "databaseURL": "FIREBASE_DATABASE_URL",
         "storageBucket": "FIREBASE_STORAGE_BUCKET",
-        "appDataSource": "neutrinos-delivery-rt",
+        "appDataSource": "atomic",
         "appAuthenticationStrategy": "localAuth",
         "basicAuthUser": "username",
         "basicAuthPassword": "password",
