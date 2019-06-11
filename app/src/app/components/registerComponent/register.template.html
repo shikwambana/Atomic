@@ -20,28 +20,57 @@
               </mat-form-field>
             </div>
             <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>What is your Idea?</label>
-              <mat-form-field class="inputInfo">
-                <textarea matInput formControlName="idea" required></textarea>
+              <mat-form-field>
+                <input matInput required formControlName="idea">
+                <mat-error *ngIf="data.idea.errors?.required">Please tell us your idea</mat-error>
               </mat-form-field>
             </div>
             <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>What challenge/problem does it solve</label>
-              <mat-form-field class="inputInfo">
-                <textarea matInput formControlName="problem" required></textarea>
+              <mat-form-field>
+                <input matInput placeholder="Input" required formControlName="problem">
+                <mat-error *ngIf="data.problem.errors?.required">Please state your problem</mat-error>
+              </mat-form-field>
+            </div>
+            <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Why do you want to take part in the AI Hackathon</label>
+              <mat-form-field>
+                <input matInput placeholder="Input" required formControlName="reason">
+                <mat-error *ngIf="data.reason.errors?.required">Tell us why you want to join the Hackathon</mat-error>
               </mat-form-field>
             </div>
           </div>
           <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFlex.sm="100" fxFlex.xs="100" fxFlex.md="100">
-            <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Why do you want to take part in the AI Hackathon</label>
-              <mat-form-field>
-                <textarea matInput formControlName="reason" required></textarea>
-              </mat-form-field>
-            </div>
             <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>I will attend the hackathon as a:</label>
               <mat-form-field>
-                <mat-select placeholder="Individual" required formControlName="attendance">
+                <mat-select placeholder="Individual" [(ngModel)]="group" required formControlName="attendance">
                   <mat-option *ngFor="let item of attend" [value]="item">{{item}}</mat-option>
                 </mat-select>
-                <mat-error *ngIf="!details.attendance">Choose an option</mat-error>
+                <mat-error *ngIf="data.attendance.errors?.required">Are you coming alone or as a group?</mat-error>
+              </mat-form-field>
+            </div>
+            <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" *ngIf="group === &apos;Group&apos;">
+              <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>First Team mate</label>
+                <mat-form-field class="inputInfo">
+                  <input matInput name="member1" required formControlName="member1" id="info">
+                  <mat-error *ngIf="data.member1.errors?.required">Enter the first team mates name</mat-error>
+                </mat-form-field>
+              </div>
+              <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Second Team mate</label>
+                <mat-form-field class="inputInfo">
+                  <input matInput name="member2" required formControlName="member2" id="info">
+                  <mat-error *ngIf="data.member2.errors?.required">Enter the second team mates name</mat-error>
+                </mat-form-field>
+              </div>
+              <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Third Team mate</label>
+                <mat-form-field class="inputInfo">
+                  <input matInput name="member3" required formControlName="member3" id="info">
+                  <mat-error *ngIf="data.member3.errors?.required">Enter the third team mates name</mat-error>
+                </mat-form-field>
+              </div>
+            </div>
+            <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><label>Google Drive Link (Project/Presentation)</label>
+              <mat-form-field class="inputInfo">
+                <input matInput name="googleDrive" required formControlName="googleDrive" id="info">
+                <mat-error *ngIf="data.googleDrive.errors?.required">Please include the link to your presentation/project</mat-error>
               </mat-form-field>
             </div>
             <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><button mat-button (click)="submit()">Submit</button></div>

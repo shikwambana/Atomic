@@ -7,7 +7,8 @@ import { NBaseComponent } from '../../../../../app/baseClasses/nBase.component';
 import { details } from '../../models/details.model'
 import { registerService } from '../../services/register/register.service'
 import { FormGroup, FormBuilder, Validators, FormArray, FormControl } from "@angular/forms";
-import { Router } from '@angular/router'
+import { Router } from '@angular/router'; 
+import { MatSnackBar} from '@angular/material'
 /**
  * Service import Example :
  * import { HeroService } from '../../services/hero/hero.service';
@@ -22,6 +23,7 @@ export class registerComponent extends NBaseComponent implements OnInit {
     mm: ModelMethods;
 
     info : FormGroup;
+    group : string = "Individual";
 
     details : details;
     attend = ['Individual','Group']
@@ -31,6 +33,7 @@ export class registerComponent extends NBaseComponent implements OnInit {
     private regService : registerService, 
     private fb: FormBuilder,
     private alertService: NSnackbarService,
+    private snackBar : MatSnackBar,
     private router : Router) {
         super();
         this.mm = new ModelMethods(bdms);
@@ -45,10 +48,14 @@ export class registerComponent extends NBaseComponent implements OnInit {
             email:  ['', Validators.compose([
                 Validators.required, 
                 Validators.pattern('^[^\\s@]+@[^\\s@]+\\.[^\\s@]{2,}$')])],
-            idea:  [''],
-            reason:  [''],
-            problem:  [''],
+            idea:  ['', Validators.required],
+            reason:  ['', Validators.required],
+            problem:  ['', Validators.required],
             attendance:  ['Individual', Validators.required],
+            member1:  [''],
+            member2:  [''],
+            member3:  [''],   
+            googleDrive:  ['', Validators.required],                        
         })
     }
 
@@ -57,16 +64,18 @@ export class registerComponent extends NBaseComponent implements OnInit {
     }
 
     submit(){
-        this.details = this.info.value;
+        this.dm.details = this.info.value;
+
+        console.log(this.dm.details)
 
         if(this.info.valid){
-            this.regService.register(this.details);   
-            this.alertService.openSnackBar('You have being registered for the Hackathon');
+            this.regService.register(this.dm.details);   
+            this.put('details',this.dm.details)
+            this.snackBar.open('You have being registered for the Hackathon','Ok');
             this.router.navigate(['home']);
-
         }else {
             this.makeInvalid();
-            this.alertService.openSnackBar('Your form is invalid');    
+            this.snackBar.open('All fields need to be valid','Ok');    
             return        
         }
     }
