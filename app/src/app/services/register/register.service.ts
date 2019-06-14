@@ -23,8 +23,9 @@ export class registerService {
             'Access-Control-Allow-Origin': '*'
         });
         let options = { headers: headers };
+        let body = details;
 
-        return this.http.post(this.url, details, options).subscribe(res => {
+        return this.http.post(this.url, body, options).subscribe(res => {
             console.log('response',res)
         }, err =>{
             console.log(err)

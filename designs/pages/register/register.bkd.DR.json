@@ -2098,12 +2098,7 @@
                                             },
                                             {
                                                 "_key": "matError",
-                                                "_value": [
-                                                    {
-                                                        "input1": "data.member1.errors?.required",
-                                                        "input2": "Enter the first team mates name"
-                                                    }
-                                                ],
+                                                "_value": [],
                                                 "_type": "a",
                                                 "_attrDef": "p",
                                                 "_visibility": true
@@ -2300,12 +2295,7 @@
                                             },
                                             {
                                                 "_key": "matError",
-                                                "_value": [
-                                                    {
-                                                        "input1": "data.member2.errors?.required",
-                                                        "input2": "Enter the second team mates name"
-                                                    }
-                                                ],
+                                                "_value": [],
                                                 "_type": "a",
                                                 "_attrDef": "p",
                                                 "_visibility": true
@@ -2502,12 +2492,7 @@
                                             },
                                             {
                                                 "_key": "matError",
-                                                "_value": [
-                                                    {
-                                                        "input1": "data.member3.errors?.required",
-                                                        "input2": "Enter the third team mates name"
-                                                    }
-                                                ],
+                                                "_value": [],
                                                 "_type": "a",
                                                 "_attrDef": "p",
                                                 "_visibility": true
