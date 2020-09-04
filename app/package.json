@@ -54,7 +54,7 @@
         "ng2-date-countdown": "1.0.3",
         "ngslides": "^1.0.0",
         "ngx-slides": "^1.0.1",
-        "node-sass": "4.11.0",
+        "node-sass": "4.14.1",
         "phonegap-plugin-barcodescanner": "^8.0.1",
         "phonegap-plugin-multidex": "^1.0.0",
         "phonegap-plugin-push": "^2.2.3",
